@@ -1,0 +1,1999 @@
+2012/11/07 15:27:12 [trace] [system.CModule] Loading "log" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:27:12 [trace] [system.CModule] Loading "request" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:27:12 [trace] [system.CModule] Loading "urlManager" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:27:12 [trace] [system.base.CModule] Loading "core" module
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:27:12 [trace] [system.CModule] Loading "session" application component
+in F:\Dropbox\shadow\frontend\protected\components\Controller.php (33)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:27:12 [trace] [system.CModule] Loading "user" application component
+in F:\Dropbox\shadow\frontend\protected\components\Controller.php (35)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:27:12 [trace] [system.CModule] Loading "db" application component
+in F:\Dropbox\shadow\frontend\protected\modules\core\models\Keyword.php (19)
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (14)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:27:12 [trace] [system.db.CDbConnection] Opening DB connection
+in F:\Dropbox\shadow\frontend\protected\modules\core\models\Keyword.php (19)
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (14)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:27:12 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `i_keyword`
+in F:\Dropbox\shadow\frontend\protected\modules\core\models\Keyword.php (19)
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (14)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:27:12 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `i_keyword`
+in F:\Dropbox\shadow\frontend\protected\modules\core\models\Keyword.php (19)
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (14)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:27:12 [trace] [system.db.ar.CActiveRecord] Keyword.findAll()
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (14)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:27:12 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `i_keyword` `t` ORDER BY id DESC LIMIT 4
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (14)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:27:12 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `i_ad`
+in F:\Dropbox\shadow\frontend\protected\modules\core\models\Ad.php (26)
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (20)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:27:12 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `i_ad`
+in F:\Dropbox\shadow\frontend\protected\modules\core\models\Ad.php (26)
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (20)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:27:12 [trace] [system.db.ar.CActiveRecord] Ad.findAll()
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (20)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:27:12 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `i_ad` `t` WHERE status = 1 AND position = 0 ORDER BY id DESC LIMIT 4
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (20)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:27:12 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `i_item_recommend`
+in F:\Dropbox\shadow\frontend\protected\modules\core\models\ItemRecommend.php (23)
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (25)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:27:12 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `i_item_recommend`
+in F:\Dropbox\shadow\frontend\protected\modules\core\models\ItemRecommend.php (23)
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (25)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:27:12 [trace] [system.db.ar.CActiveRecord] ItemRecommend.findAll()
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (25)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:27:12 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `i_item`
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (25)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:27:12 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `i_item`
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (25)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:27:12 [trace] [system.db.CDbCommand] Querying SQL: SELECT `t`.`id` AS `t0_c0`, `t`.`item_id` AS `t0_c1`, `t`.`img_path` AS `t0_c2`, `t`.`status` AS `t0_c3`, `t`.`type` AS `t0_c4`, `t`.`create_time` AS `t0_c5`, `item`.`id` AS `t1_c0`, `item`.`item_name` AS `t1_c1`, `item`.`item_sn` AS `t1_c2`, `item`.`item_point` AS `t1_c3`, `item`.`item_price` AS `t1_c4`, `item`.`category_one` AS `t1_c5`, `item`.`category_two` AS `t1_c6`, `item`.`category_three` AS `t1_c7`, `item`.`brand_id` AS `t1_c8`, `item`.`share` AS `t1_c9`, `item`.`view` AS `t1_c10`, `item`.`volume` AS `t1_c11`, `item`.`collect` AS `t1_c12`, `item`.`is_shelve` AS `t1_c13`, `item`.`is_delete` AS `t1_c14`, `item`.`is_free_postage` AS `t1_c15`, `item`.`desc` AS `t1_c16`, `item`.`keyword_id` AS `t1_c17`, `item`.`create_time` AS `t1_c18` FROM `i_item_recommend` `t`  LEFT OUTER JOIN `i_item` `item` ON (`t`.`item_id`=`item`.`id`)  WHERE (status = 1 AND type = 0) LIMIT 6
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (25)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:27:12 [trace] [system.db.ar.CActiveRecord] ItemRecommend.findAll()
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (30)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:27:12 [trace] [system.db.CDbCommand] Querying SQL: SELECT `t`.`id` AS `t0_c0`, `t`.`item_id` AS `t0_c1`, `t`.`img_path` AS `t0_c2`, `t`.`status` AS `t0_c3`, `t`.`type` AS `t0_c4`, `t`.`create_time` AS `t0_c5`, `item`.`id` AS `t1_c0`, `item`.`item_name` AS `t1_c1`, `item`.`item_sn` AS `t1_c2`, `item`.`item_point` AS `t1_c3`, `item`.`item_price` AS `t1_c4`, `item`.`category_one` AS `t1_c5`, `item`.`category_two` AS `t1_c6`, `item`.`category_three` AS `t1_c7`, `item`.`brand_id` AS `t1_c8`, `item`.`share` AS `t1_c9`, `item`.`view` AS `t1_c10`, `item`.`volume` AS `t1_c11`, `item`.`collect` AS `t1_c12`, `item`.`is_shelve` AS `t1_c13`, `item`.`is_delete` AS `t1_c14`, `item`.`is_free_postage` AS `t1_c15`, `item`.`desc` AS `t1_c16`, `item`.`keyword_id` AS `t1_c17`, `item`.`create_time` AS `t1_c18` FROM `i_item_recommend` `t`  LEFT OUTER JOIN `i_item` `item` ON (`t`.`item_id`=`item`.`id`)  WHERE (status = 1 AND type = 1) LIMIT 1
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (30)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:27:12 [trace] [system.db.ar.CActiveRecord] ItemRecommend.findAll()
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (35)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:27:12 [trace] [system.db.CDbCommand] Querying SQL: SELECT `t`.`id` AS `t0_c0`, `t`.`item_id` AS `t0_c1`, `t`.`img_path` AS `t0_c2`, `t`.`status` AS `t0_c3`, `t`.`type` AS `t0_c4`, `t`.`create_time` AS `t0_c5`, `item`.`id` AS `t1_c0`, `item`.`item_name` AS `t1_c1`, `item`.`item_sn` AS `t1_c2`, `item`.`item_point` AS `t1_c3`, `item`.`item_price` AS `t1_c4`, `item`.`category_one` AS `t1_c5`, `item`.`category_two` AS `t1_c6`, `item`.`category_three` AS `t1_c7`, `item`.`brand_id` AS `t1_c8`, `item`.`share` AS `t1_c9`, `item`.`view` AS `t1_c10`, `item`.`volume` AS `t1_c11`, `item`.`collect` AS `t1_c12`, `item`.`is_shelve` AS `t1_c13`, `item`.`is_delete` AS `t1_c14`, `item`.`is_free_postage` AS `t1_c15`, `item`.`desc` AS `t1_c16`, `item`.`keyword_id` AS `t1_c17`, `item`.`create_time` AS `t1_c18` FROM `i_item_recommend` `t`  LEFT OUTER JOIN `i_item` `item` ON (`t`.`item_id`=`item`.`id`)  WHERE (status = 1 AND type = 2) LIMIT 1
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (35)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:27:12 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `i_information`
+in F:\Dropbox\shadow\frontend\protected\modules\core\models\Information.php (23)
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (40)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:27:12 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `i_information`
+in F:\Dropbox\shadow\frontend\protected\modules\core\models\Information.php (23)
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (40)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:27:12 [trace] [system.db.ar.CActiveRecord] Information.findAll()
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (40)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:27:12 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `i_information` `t` WHERE status = 1 AND type = 0 LIMIT 3
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (40)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:27:12 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `i_brand`
+in F:\Dropbox\shadow\frontend\protected\modules\core\models\Brand.php (25)
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (45)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:27:12 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `i_brand`
+in F:\Dropbox\shadow\frontend\protected\modules\core\models\Brand.php (25)
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (45)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:27:12 [trace] [system.db.ar.CActiveRecord] Brand.findAll()
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (45)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:27:12 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `i_brand` `t` WHERE status = 1 AND recommend = 1 LIMIT 4
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (45)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:27:12 [trace] [system.CModule] Loading "widgetFactory" application component
+in F:\Dropbox\shadow\frontend\protected\views\layouts\column1.php (1)
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (56)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:27:12 [trace] [system.CModule] Loading "clientScript" application component
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (56)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:27:21 [trace] [system.CModule] Loading "log" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:27:21 [trace] [system.CModule] Loading "request" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:27:21 [trace] [system.CModule] Loading "urlManager" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:27:21 [trace] [system.base.CModule] Loading "core" module
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:27:21 [trace] [system.CModule] Loading "session" application component
+in F:\Dropbox\shadow\frontend\protected\components\Controller.php (33)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:27:21 [trace] [system.CModule] Loading "user" application component
+in F:\Dropbox\shadow\frontend\protected\components\Controller.php (35)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:27:21 [trace] [system.CModule] Loading "db" application component
+in F:\Dropbox\shadow\frontend\protected\modules\core\models\Keyword.php (19)
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (14)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:27:21 [trace] [system.db.CDbConnection] Opening DB connection
+in F:\Dropbox\shadow\frontend\protected\modules\core\models\Keyword.php (19)
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (14)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:27:21 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `i_keyword`
+in F:\Dropbox\shadow\frontend\protected\modules\core\models\Keyword.php (19)
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (14)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:27:21 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `i_keyword`
+in F:\Dropbox\shadow\frontend\protected\modules\core\models\Keyword.php (19)
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (14)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:27:21 [trace] [system.db.ar.CActiveRecord] Keyword.findAll()
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (14)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:27:21 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `i_keyword` `t` ORDER BY id DESC LIMIT 4
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (14)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:27:21 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `i_ad`
+in F:\Dropbox\shadow\frontend\protected\modules\core\models\Ad.php (26)
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (20)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:27:21 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `i_ad`
+in F:\Dropbox\shadow\frontend\protected\modules\core\models\Ad.php (26)
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (20)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:27:21 [trace] [system.db.ar.CActiveRecord] Ad.findAll()
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (20)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:27:21 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `i_ad` `t` WHERE status = 1 AND position = 0 ORDER BY id DESC LIMIT 4
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (20)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:27:21 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `i_item_recommend`
+in F:\Dropbox\shadow\frontend\protected\modules\core\models\ItemRecommend.php (23)
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (25)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:27:21 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `i_item_recommend`
+in F:\Dropbox\shadow\frontend\protected\modules\core\models\ItemRecommend.php (23)
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (25)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:27:21 [trace] [system.db.ar.CActiveRecord] ItemRecommend.findAll()
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (25)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:27:21 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `i_item`
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (25)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:27:21 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `i_item`
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (25)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:27:21 [trace] [system.db.CDbCommand] Querying SQL: SELECT `t`.`id` AS `t0_c0`, `t`.`item_id` AS `t0_c1`, `t`.`img_path` AS `t0_c2`, `t`.`status` AS `t0_c3`, `t`.`type` AS `t0_c4`, `t`.`create_time` AS `t0_c5`, `item`.`id` AS `t1_c0`, `item`.`item_name` AS `t1_c1`, `item`.`item_sn` AS `t1_c2`, `item`.`item_point` AS `t1_c3`, `item`.`item_price` AS `t1_c4`, `item`.`category_one` AS `t1_c5`, `item`.`category_two` AS `t1_c6`, `item`.`category_three` AS `t1_c7`, `item`.`brand_id` AS `t1_c8`, `item`.`share` AS `t1_c9`, `item`.`view` AS `t1_c10`, `item`.`volume` AS `t1_c11`, `item`.`collect` AS `t1_c12`, `item`.`is_shelve` AS `t1_c13`, `item`.`is_delete` AS `t1_c14`, `item`.`is_free_postage` AS `t1_c15`, `item`.`desc` AS `t1_c16`, `item`.`keyword_id` AS `t1_c17`, `item`.`create_time` AS `t1_c18` FROM `i_item_recommend` `t`  LEFT OUTER JOIN `i_item` `item` ON (`t`.`item_id`=`item`.`id`)  WHERE (status = 1 AND type = 0) LIMIT 6
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (25)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:27:21 [trace] [system.db.ar.CActiveRecord] ItemRecommend.findAll()
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (30)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:27:21 [trace] [system.db.CDbCommand] Querying SQL: SELECT `t`.`id` AS `t0_c0`, `t`.`item_id` AS `t0_c1`, `t`.`img_path` AS `t0_c2`, `t`.`status` AS `t0_c3`, `t`.`type` AS `t0_c4`, `t`.`create_time` AS `t0_c5`, `item`.`id` AS `t1_c0`, `item`.`item_name` AS `t1_c1`, `item`.`item_sn` AS `t1_c2`, `item`.`item_point` AS `t1_c3`, `item`.`item_price` AS `t1_c4`, `item`.`category_one` AS `t1_c5`, `item`.`category_two` AS `t1_c6`, `item`.`category_three` AS `t1_c7`, `item`.`brand_id` AS `t1_c8`, `item`.`share` AS `t1_c9`, `item`.`view` AS `t1_c10`, `item`.`volume` AS `t1_c11`, `item`.`collect` AS `t1_c12`, `item`.`is_shelve` AS `t1_c13`, `item`.`is_delete` AS `t1_c14`, `item`.`is_free_postage` AS `t1_c15`, `item`.`desc` AS `t1_c16`, `item`.`keyword_id` AS `t1_c17`, `item`.`create_time` AS `t1_c18` FROM `i_item_recommend` `t`  LEFT OUTER JOIN `i_item` `item` ON (`t`.`item_id`=`item`.`id`)  WHERE (status = 1 AND type = 1) LIMIT 1
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (30)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:27:21 [trace] [system.db.ar.CActiveRecord] ItemRecommend.findAll()
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (35)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:27:21 [trace] [system.db.CDbCommand] Querying SQL: SELECT `t`.`id` AS `t0_c0`, `t`.`item_id` AS `t0_c1`, `t`.`img_path` AS `t0_c2`, `t`.`status` AS `t0_c3`, `t`.`type` AS `t0_c4`, `t`.`create_time` AS `t0_c5`, `item`.`id` AS `t1_c0`, `item`.`item_name` AS `t1_c1`, `item`.`item_sn` AS `t1_c2`, `item`.`item_point` AS `t1_c3`, `item`.`item_price` AS `t1_c4`, `item`.`category_one` AS `t1_c5`, `item`.`category_two` AS `t1_c6`, `item`.`category_three` AS `t1_c7`, `item`.`brand_id` AS `t1_c8`, `item`.`share` AS `t1_c9`, `item`.`view` AS `t1_c10`, `item`.`volume` AS `t1_c11`, `item`.`collect` AS `t1_c12`, `item`.`is_shelve` AS `t1_c13`, `item`.`is_delete` AS `t1_c14`, `item`.`is_free_postage` AS `t1_c15`, `item`.`desc` AS `t1_c16`, `item`.`keyword_id` AS `t1_c17`, `item`.`create_time` AS `t1_c18` FROM `i_item_recommend` `t`  LEFT OUTER JOIN `i_item` `item` ON (`t`.`item_id`=`item`.`id`)  WHERE (status = 1 AND type = 2) LIMIT 1
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (35)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:27:21 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `i_information`
+in F:\Dropbox\shadow\frontend\protected\modules\core\models\Information.php (23)
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (40)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:27:21 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `i_information`
+in F:\Dropbox\shadow\frontend\protected\modules\core\models\Information.php (23)
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (40)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:27:21 [trace] [system.db.ar.CActiveRecord] Information.findAll()
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (40)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:27:21 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `i_information` `t` WHERE status = 1 AND type = 0 LIMIT 3
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (40)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:27:21 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `i_brand`
+in F:\Dropbox\shadow\frontend\protected\modules\core\models\Brand.php (25)
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (45)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:27:21 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `i_brand`
+in F:\Dropbox\shadow\frontend\protected\modules\core\models\Brand.php (25)
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (45)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:27:21 [trace] [system.db.ar.CActiveRecord] Brand.findAll()
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (45)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:27:21 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `i_brand` `t` WHERE status = 1 AND recommend = 1 LIMIT 4
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (45)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:27:21 [trace] [system.CModule] Loading "widgetFactory" application component
+in F:\Dropbox\shadow\frontend\protected\views\layouts\column1.php (1)
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (56)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:27:21 [trace] [system.CModule] Loading "clientScript" application component
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (56)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:27:32 [trace] [system.CModule] Loading "log" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:27:32 [trace] [system.CModule] Loading "request" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:27:32 [trace] [system.CModule] Loading "urlManager" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:27:32 [trace] [system.CModule] Loading "coreMessages" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:27:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "product"。' in F:\Dropbox\shadow\frontend\framework\web\CWebApplication.php:280
+Stack trace:
+#0 F:\Dropbox\shadow\frontend\framework\web\CWebApplication.php(135): CWebApplication->runController('product')
+#1 F:\Dropbox\shadow\frontend\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 F:\Dropbox\shadow\frontend\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/frontend/index.php?r=product
+---
+2012/11/07 15:27:33 [trace] [system.CModule] Loading "errorHandler" application component
+2012/11/07 15:27:33 [trace] [system.CModule] Loading "clientScript" application component
+in F:\Dropbox\shadow\frontend\protected\controllers\SiteController.php (47)
+2012/11/07 15:28:04 [trace] [system.CModule] Loading "log" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:28:04 [trace] [system.CModule] Loading "request" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:28:04 [trace] [system.CModule] Loading "urlManager" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:28:04 [trace] [system.base.CModule] Loading "core" module
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:28:04 [trace] [system.CModule] Loading "session" application component
+in F:\Dropbox\shadow\frontend\protected\components\Controller.php (33)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:28:04 [trace] [system.CModule] Loading "user" application component
+in F:\Dropbox\shadow\frontend\protected\components\Controller.php (35)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:28:04 [trace] [system.CModule] Loading "db" application component
+in F:\Dropbox\shadow\frontend\protected\modules\core\models\Keyword.php (19)
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (14)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:28:04 [trace] [system.db.CDbConnection] Opening DB connection
+in F:\Dropbox\shadow\frontend\protected\modules\core\models\Keyword.php (19)
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (14)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:28:04 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `i_keyword`
+in F:\Dropbox\shadow\frontend\protected\modules\core\models\Keyword.php (19)
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (14)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:28:04 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `i_keyword`
+in F:\Dropbox\shadow\frontend\protected\modules\core\models\Keyword.php (19)
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (14)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:28:04 [trace] [system.db.ar.CActiveRecord] Keyword.findAll()
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (14)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:28:04 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `i_keyword` `t` ORDER BY id DESC LIMIT 4
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (14)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:28:04 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `i_ad`
+in F:\Dropbox\shadow\frontend\protected\modules\core\models\Ad.php (26)
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (20)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:28:04 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `i_ad`
+in F:\Dropbox\shadow\frontend\protected\modules\core\models\Ad.php (26)
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (20)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:28:04 [trace] [system.db.ar.CActiveRecord] Ad.findAll()
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (20)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:28:04 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `i_ad` `t` WHERE status = 1 AND position = 0 ORDER BY id DESC LIMIT 4
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (20)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:28:04 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `i_item_recommend`
+in F:\Dropbox\shadow\frontend\protected\modules\core\models\ItemRecommend.php (23)
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (25)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:28:04 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `i_item_recommend`
+in F:\Dropbox\shadow\frontend\protected\modules\core\models\ItemRecommend.php (23)
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (25)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:28:04 [trace] [system.db.ar.CActiveRecord] ItemRecommend.findAll()
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (25)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:28:04 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `i_item`
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (25)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:28:04 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `i_item`
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (25)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:28:04 [trace] [system.db.CDbCommand] Querying SQL: SELECT `t`.`id` AS `t0_c0`, `t`.`item_id` AS `t0_c1`, `t`.`img_path` AS `t0_c2`, `t`.`status` AS `t0_c3`, `t`.`type` AS `t0_c4`, `t`.`create_time` AS `t0_c5`, `item`.`id` AS `t1_c0`, `item`.`item_name` AS `t1_c1`, `item`.`item_sn` AS `t1_c2`, `item`.`item_point` AS `t1_c3`, `item`.`item_price` AS `t1_c4`, `item`.`category_one` AS `t1_c5`, `item`.`category_two` AS `t1_c6`, `item`.`category_three` AS `t1_c7`, `item`.`brand_id` AS `t1_c8`, `item`.`share` AS `t1_c9`, `item`.`view` AS `t1_c10`, `item`.`volume` AS `t1_c11`, `item`.`collect` AS `t1_c12`, `item`.`is_shelve` AS `t1_c13`, `item`.`is_delete` AS `t1_c14`, `item`.`is_free_postage` AS `t1_c15`, `item`.`desc` AS `t1_c16`, `item`.`keyword_id` AS `t1_c17`, `item`.`create_time` AS `t1_c18` FROM `i_item_recommend` `t`  LEFT OUTER JOIN `i_item` `item` ON (`t`.`item_id`=`item`.`id`)  WHERE (status = 1 AND type = 0) LIMIT 6
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (25)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:28:04 [trace] [system.db.ar.CActiveRecord] ItemRecommend.findAll()
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (30)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:28:04 [trace] [system.db.CDbCommand] Querying SQL: SELECT `t`.`id` AS `t0_c0`, `t`.`item_id` AS `t0_c1`, `t`.`img_path` AS `t0_c2`, `t`.`status` AS `t0_c3`, `t`.`type` AS `t0_c4`, `t`.`create_time` AS `t0_c5`, `item`.`id` AS `t1_c0`, `item`.`item_name` AS `t1_c1`, `item`.`item_sn` AS `t1_c2`, `item`.`item_point` AS `t1_c3`, `item`.`item_price` AS `t1_c4`, `item`.`category_one` AS `t1_c5`, `item`.`category_two` AS `t1_c6`, `item`.`category_three` AS `t1_c7`, `item`.`brand_id` AS `t1_c8`, `item`.`share` AS `t1_c9`, `item`.`view` AS `t1_c10`, `item`.`volume` AS `t1_c11`, `item`.`collect` AS `t1_c12`, `item`.`is_shelve` AS `t1_c13`, `item`.`is_delete` AS `t1_c14`, `item`.`is_free_postage` AS `t1_c15`, `item`.`desc` AS `t1_c16`, `item`.`keyword_id` AS `t1_c17`, `item`.`create_time` AS `t1_c18` FROM `i_item_recommend` `t`  LEFT OUTER JOIN `i_item` `item` ON (`t`.`item_id`=`item`.`id`)  WHERE (status = 1 AND type = 1) LIMIT 1
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (30)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:28:04 [trace] [system.db.ar.CActiveRecord] ItemRecommend.findAll()
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (35)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:28:04 [trace] [system.db.CDbCommand] Querying SQL: SELECT `t`.`id` AS `t0_c0`, `t`.`item_id` AS `t0_c1`, `t`.`img_path` AS `t0_c2`, `t`.`status` AS `t0_c3`, `t`.`type` AS `t0_c4`, `t`.`create_time` AS `t0_c5`, `item`.`id` AS `t1_c0`, `item`.`item_name` AS `t1_c1`, `item`.`item_sn` AS `t1_c2`, `item`.`item_point` AS `t1_c3`, `item`.`item_price` AS `t1_c4`, `item`.`category_one` AS `t1_c5`, `item`.`category_two` AS `t1_c6`, `item`.`category_three` AS `t1_c7`, `item`.`brand_id` AS `t1_c8`, `item`.`share` AS `t1_c9`, `item`.`view` AS `t1_c10`, `item`.`volume` AS `t1_c11`, `item`.`collect` AS `t1_c12`, `item`.`is_shelve` AS `t1_c13`, `item`.`is_delete` AS `t1_c14`, `item`.`is_free_postage` AS `t1_c15`, `item`.`desc` AS `t1_c16`, `item`.`keyword_id` AS `t1_c17`, `item`.`create_time` AS `t1_c18` FROM `i_item_recommend` `t`  LEFT OUTER JOIN `i_item` `item` ON (`t`.`item_id`=`item`.`id`)  WHERE (status = 1 AND type = 2) LIMIT 1
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (35)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:28:04 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `i_information`
+in F:\Dropbox\shadow\frontend\protected\modules\core\models\Information.php (23)
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (40)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:28:04 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `i_information`
+in F:\Dropbox\shadow\frontend\protected\modules\core\models\Information.php (23)
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (40)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:28:04 [trace] [system.db.ar.CActiveRecord] Information.findAll()
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (40)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:28:04 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `i_information` `t` WHERE status = 1 AND type = 0 LIMIT 3
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (40)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:28:04 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `i_brand`
+in F:\Dropbox\shadow\frontend\protected\modules\core\models\Brand.php (25)
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (45)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:28:04 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `i_brand`
+in F:\Dropbox\shadow\frontend\protected\modules\core\models\Brand.php (25)
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (45)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:28:04 [trace] [system.db.ar.CActiveRecord] Brand.findAll()
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (45)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:28:04 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `i_brand` `t` WHERE status = 1 AND recommend = 1 LIMIT 4
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (45)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:28:04 [trace] [system.CModule] Loading "widgetFactory" application component
+in F:\Dropbox\shadow\frontend\protected\views\layouts\column1.php (1)
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (56)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:28:04 [trace] [system.CModule] Loading "clientScript" application component
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (56)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:28:09 [trace] [system.CModule] Loading "log" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:28:09 [trace] [system.CModule] Loading "request" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:28:09 [trace] [system.CModule] Loading "urlManager" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:28:09 [trace] [system.base.CModule] Loading "core" module
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:28:09 [trace] [system.CModule] Loading "session" application component
+in F:\Dropbox\shadow\frontend\protected\components\Controller.php (33)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:28:09 [trace] [system.CModule] Loading "user" application component
+in F:\Dropbox\shadow\frontend\protected\components\Controller.php (35)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:28:09 [trace] [system.CModule] Loading "db" application component
+in F:\Dropbox\shadow\frontend\protected\modules\core\models\Keyword.php (19)
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (14)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:28:09 [trace] [system.db.CDbConnection] Opening DB connection
+in F:\Dropbox\shadow\frontend\protected\modules\core\models\Keyword.php (19)
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (14)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:28:09 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `i_keyword`
+in F:\Dropbox\shadow\frontend\protected\modules\core\models\Keyword.php (19)
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (14)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:28:09 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `i_keyword`
+in F:\Dropbox\shadow\frontend\protected\modules\core\models\Keyword.php (19)
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (14)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:28:09 [trace] [system.db.ar.CActiveRecord] Keyword.findAll()
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (14)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:28:09 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `i_keyword` `t` ORDER BY id DESC LIMIT 4
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (14)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:28:09 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `i_ad`
+in F:\Dropbox\shadow\frontend\protected\modules\core\models\Ad.php (26)
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (20)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:28:09 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `i_ad`
+in F:\Dropbox\shadow\frontend\protected\modules\core\models\Ad.php (26)
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (20)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:28:09 [trace] [system.db.ar.CActiveRecord] Ad.findAll()
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (20)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:28:09 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `i_ad` `t` WHERE status = 1 AND position = 0 ORDER BY id DESC LIMIT 4
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (20)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:28:09 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `i_item_recommend`
+in F:\Dropbox\shadow\frontend\protected\modules\core\models\ItemRecommend.php (23)
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (25)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:28:09 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `i_item_recommend`
+in F:\Dropbox\shadow\frontend\protected\modules\core\models\ItemRecommend.php (23)
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (25)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:28:09 [trace] [system.db.ar.CActiveRecord] ItemRecommend.findAll()
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (25)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:28:09 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `i_item`
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (25)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:28:09 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `i_item`
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (25)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:28:09 [trace] [system.db.CDbCommand] Querying SQL: SELECT `t`.`id` AS `t0_c0`, `t`.`item_id` AS `t0_c1`, `t`.`img_path` AS `t0_c2`, `t`.`status` AS `t0_c3`, `t`.`type` AS `t0_c4`, `t`.`create_time` AS `t0_c5`, `item`.`id` AS `t1_c0`, `item`.`item_name` AS `t1_c1`, `item`.`item_sn` AS `t1_c2`, `item`.`item_point` AS `t1_c3`, `item`.`item_price` AS `t1_c4`, `item`.`category_one` AS `t1_c5`, `item`.`category_two` AS `t1_c6`, `item`.`category_three` AS `t1_c7`, `item`.`brand_id` AS `t1_c8`, `item`.`share` AS `t1_c9`, `item`.`view` AS `t1_c10`, `item`.`volume` AS `t1_c11`, `item`.`collect` AS `t1_c12`, `item`.`is_shelve` AS `t1_c13`, `item`.`is_delete` AS `t1_c14`, `item`.`is_free_postage` AS `t1_c15`, `item`.`desc` AS `t1_c16`, `item`.`keyword_id` AS `t1_c17`, `item`.`create_time` AS `t1_c18` FROM `i_item_recommend` `t`  LEFT OUTER JOIN `i_item` `item` ON (`t`.`item_id`=`item`.`id`)  WHERE (status = 1 AND type = 0) LIMIT 6
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (25)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:28:09 [trace] [system.db.ar.CActiveRecord] ItemRecommend.findAll()
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (30)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:28:09 [trace] [system.db.CDbCommand] Querying SQL: SELECT `t`.`id` AS `t0_c0`, `t`.`item_id` AS `t0_c1`, `t`.`img_path` AS `t0_c2`, `t`.`status` AS `t0_c3`, `t`.`type` AS `t0_c4`, `t`.`create_time` AS `t0_c5`, `item`.`id` AS `t1_c0`, `item`.`item_name` AS `t1_c1`, `item`.`item_sn` AS `t1_c2`, `item`.`item_point` AS `t1_c3`, `item`.`item_price` AS `t1_c4`, `item`.`category_one` AS `t1_c5`, `item`.`category_two` AS `t1_c6`, `item`.`category_three` AS `t1_c7`, `item`.`brand_id` AS `t1_c8`, `item`.`share` AS `t1_c9`, `item`.`view` AS `t1_c10`, `item`.`volume` AS `t1_c11`, `item`.`collect` AS `t1_c12`, `item`.`is_shelve` AS `t1_c13`, `item`.`is_delete` AS `t1_c14`, `item`.`is_free_postage` AS `t1_c15`, `item`.`desc` AS `t1_c16`, `item`.`keyword_id` AS `t1_c17`, `item`.`create_time` AS `t1_c18` FROM `i_item_recommend` `t`  LEFT OUTER JOIN `i_item` `item` ON (`t`.`item_id`=`item`.`id`)  WHERE (status = 1 AND type = 1) LIMIT 1
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (30)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:28:09 [trace] [system.db.ar.CActiveRecord] ItemRecommend.findAll()
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (35)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:28:09 [trace] [system.db.CDbCommand] Querying SQL: SELECT `t`.`id` AS `t0_c0`, `t`.`item_id` AS `t0_c1`, `t`.`img_path` AS `t0_c2`, `t`.`status` AS `t0_c3`, `t`.`type` AS `t0_c4`, `t`.`create_time` AS `t0_c5`, `item`.`id` AS `t1_c0`, `item`.`item_name` AS `t1_c1`, `item`.`item_sn` AS `t1_c2`, `item`.`item_point` AS `t1_c3`, `item`.`item_price` AS `t1_c4`, `item`.`category_one` AS `t1_c5`, `item`.`category_two` AS `t1_c6`, `item`.`category_three` AS `t1_c7`, `item`.`brand_id` AS `t1_c8`, `item`.`share` AS `t1_c9`, `item`.`view` AS `t1_c10`, `item`.`volume` AS `t1_c11`, `item`.`collect` AS `t1_c12`, `item`.`is_shelve` AS `t1_c13`, `item`.`is_delete` AS `t1_c14`, `item`.`is_free_postage` AS `t1_c15`, `item`.`desc` AS `t1_c16`, `item`.`keyword_id` AS `t1_c17`, `item`.`create_time` AS `t1_c18` FROM `i_item_recommend` `t`  LEFT OUTER JOIN `i_item` `item` ON (`t`.`item_id`=`item`.`id`)  WHERE (status = 1 AND type = 2) LIMIT 1
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (35)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:28:09 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `i_information`
+in F:\Dropbox\shadow\frontend\protected\modules\core\models\Information.php (23)
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (40)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:28:09 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `i_information`
+in F:\Dropbox\shadow\frontend\protected\modules\core\models\Information.php (23)
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (40)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:28:09 [trace] [system.db.ar.CActiveRecord] Information.findAll()
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (40)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:28:09 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `i_information` `t` WHERE status = 1 AND type = 0 LIMIT 3
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (40)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:28:09 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `i_brand`
+in F:\Dropbox\shadow\frontend\protected\modules\core\models\Brand.php (25)
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (45)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:28:09 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `i_brand`
+in F:\Dropbox\shadow\frontend\protected\modules\core\models\Brand.php (25)
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (45)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:28:09 [trace] [system.db.ar.CActiveRecord] Brand.findAll()
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (45)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:28:09 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `i_brand` `t` WHERE status = 1 AND recommend = 1 LIMIT 4
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (45)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:28:09 [trace] [system.CModule] Loading "widgetFactory" application component
+in F:\Dropbox\shadow\frontend\protected\views\layouts\column1.php (1)
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (56)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:28:09 [trace] [system.CModule] Loading "clientScript" application component
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (56)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:29:17 [trace] [system.CModule] Loading "log" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:29:17 [trace] [system.CModule] Loading "request" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:29:17 [trace] [system.CModule] Loading "urlManager" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:29:17 [trace] [system.base.CModule] Loading "core" module
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:29:17 [trace] [system.CModule] Loading "session" application component
+in F:\Dropbox\shadow\frontend\protected\components\Controller.php (33)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:29:17 [trace] [system.CModule] Loading "user" application component
+in F:\Dropbox\shadow\frontend\protected\components\Controller.php (35)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:29:17 [trace] [system.CModule] Loading "db" application component
+in F:\Dropbox\shadow\frontend\protected\modules\core\models\Keyword.php (19)
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (14)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:29:17 [trace] [system.db.CDbConnection] Opening DB connection
+in F:\Dropbox\shadow\frontend\protected\modules\core\models\Keyword.php (19)
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (14)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:29:17 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `i_keyword`
+in F:\Dropbox\shadow\frontend\protected\modules\core\models\Keyword.php (19)
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (14)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:29:17 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `i_keyword`
+in F:\Dropbox\shadow\frontend\protected\modules\core\models\Keyword.php (19)
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (14)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:29:17 [trace] [system.db.ar.CActiveRecord] Keyword.findAll()
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (14)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:29:17 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `i_keyword` `t` ORDER BY id DESC LIMIT 4
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (14)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:29:17 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `i_ad`
+in F:\Dropbox\shadow\frontend\protected\modules\core\models\Ad.php (26)
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (20)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:29:17 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `i_ad`
+in F:\Dropbox\shadow\frontend\protected\modules\core\models\Ad.php (26)
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (20)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:29:17 [trace] [system.db.ar.CActiveRecord] Ad.findAll()
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (20)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:29:17 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `i_ad` `t` WHERE status = 1 AND position = 0 ORDER BY id DESC LIMIT 4
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (20)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:29:17 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `i_item_recommend`
+in F:\Dropbox\shadow\frontend\protected\modules\core\models\ItemRecommend.php (23)
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (25)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:29:17 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `i_item_recommend`
+in F:\Dropbox\shadow\frontend\protected\modules\core\models\ItemRecommend.php (23)
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (25)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:29:17 [trace] [system.db.ar.CActiveRecord] ItemRecommend.findAll()
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (25)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:29:17 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `i_item`
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (25)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:29:17 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `i_item`
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (25)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:29:17 [trace] [system.db.CDbCommand] Querying SQL: SELECT `t`.`id` AS `t0_c0`, `t`.`item_id` AS `t0_c1`, `t`.`img_path` AS `t0_c2`, `t`.`status` AS `t0_c3`, `t`.`type` AS `t0_c4`, `t`.`create_time` AS `t0_c5`, `item`.`id` AS `t1_c0`, `item`.`item_name` AS `t1_c1`, `item`.`item_sn` AS `t1_c2`, `item`.`item_point` AS `t1_c3`, `item`.`item_price` AS `t1_c4`, `item`.`category_one` AS `t1_c5`, `item`.`category_two` AS `t1_c6`, `item`.`category_three` AS `t1_c7`, `item`.`brand_id` AS `t1_c8`, `item`.`share` AS `t1_c9`, `item`.`view` AS `t1_c10`, `item`.`volume` AS `t1_c11`, `item`.`collect` AS `t1_c12`, `item`.`is_shelve` AS `t1_c13`, `item`.`is_delete` AS `t1_c14`, `item`.`is_free_postage` AS `t1_c15`, `item`.`desc` AS `t1_c16`, `item`.`keyword_id` AS `t1_c17`, `item`.`create_time` AS `t1_c18` FROM `i_item_recommend` `t`  LEFT OUTER JOIN `i_item` `item` ON (`t`.`item_id`=`item`.`id`)  WHERE (status = 1 AND type = 0) LIMIT 6
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (25)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:29:17 [trace] [system.db.ar.CActiveRecord] ItemRecommend.findAll()
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (30)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:29:17 [trace] [system.db.CDbCommand] Querying SQL: SELECT `t`.`id` AS `t0_c0`, `t`.`item_id` AS `t0_c1`, `t`.`img_path` AS `t0_c2`, `t`.`status` AS `t0_c3`, `t`.`type` AS `t0_c4`, `t`.`create_time` AS `t0_c5`, `item`.`id` AS `t1_c0`, `item`.`item_name` AS `t1_c1`, `item`.`item_sn` AS `t1_c2`, `item`.`item_point` AS `t1_c3`, `item`.`item_price` AS `t1_c4`, `item`.`category_one` AS `t1_c5`, `item`.`category_two` AS `t1_c6`, `item`.`category_three` AS `t1_c7`, `item`.`brand_id` AS `t1_c8`, `item`.`share` AS `t1_c9`, `item`.`view` AS `t1_c10`, `item`.`volume` AS `t1_c11`, `item`.`collect` AS `t1_c12`, `item`.`is_shelve` AS `t1_c13`, `item`.`is_delete` AS `t1_c14`, `item`.`is_free_postage` AS `t1_c15`, `item`.`desc` AS `t1_c16`, `item`.`keyword_id` AS `t1_c17`, `item`.`create_time` AS `t1_c18` FROM `i_item_recommend` `t`  LEFT OUTER JOIN `i_item` `item` ON (`t`.`item_id`=`item`.`id`)  WHERE (status = 1 AND type = 1) LIMIT 1
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (30)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:29:17 [trace] [system.db.ar.CActiveRecord] ItemRecommend.findAll()
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (35)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:29:17 [trace] [system.db.CDbCommand] Querying SQL: SELECT `t`.`id` AS `t0_c0`, `t`.`item_id` AS `t0_c1`, `t`.`img_path` AS `t0_c2`, `t`.`status` AS `t0_c3`, `t`.`type` AS `t0_c4`, `t`.`create_time` AS `t0_c5`, `item`.`id` AS `t1_c0`, `item`.`item_name` AS `t1_c1`, `item`.`item_sn` AS `t1_c2`, `item`.`item_point` AS `t1_c3`, `item`.`item_price` AS `t1_c4`, `item`.`category_one` AS `t1_c5`, `item`.`category_two` AS `t1_c6`, `item`.`category_three` AS `t1_c7`, `item`.`brand_id` AS `t1_c8`, `item`.`share` AS `t1_c9`, `item`.`view` AS `t1_c10`, `item`.`volume` AS `t1_c11`, `item`.`collect` AS `t1_c12`, `item`.`is_shelve` AS `t1_c13`, `item`.`is_delete` AS `t1_c14`, `item`.`is_free_postage` AS `t1_c15`, `item`.`desc` AS `t1_c16`, `item`.`keyword_id` AS `t1_c17`, `item`.`create_time` AS `t1_c18` FROM `i_item_recommend` `t`  LEFT OUTER JOIN `i_item` `item` ON (`t`.`item_id`=`item`.`id`)  WHERE (status = 1 AND type = 2) LIMIT 1
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (35)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:29:17 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `i_information`
+in F:\Dropbox\shadow\frontend\protected\modules\core\models\Information.php (23)
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (40)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:29:17 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `i_information`
+in F:\Dropbox\shadow\frontend\protected\modules\core\models\Information.php (23)
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (40)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:29:17 [trace] [system.db.ar.CActiveRecord] Information.findAll()
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (40)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:29:17 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `i_information` `t` WHERE status = 1 AND type = 0 LIMIT 3
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (40)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:29:17 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `i_brand`
+in F:\Dropbox\shadow\frontend\protected\modules\core\models\Brand.php (25)
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (45)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:29:17 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `i_brand`
+in F:\Dropbox\shadow\frontend\protected\modules\core\models\Brand.php (25)
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (45)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:29:17 [trace] [system.db.ar.CActiveRecord] Brand.findAll()
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (45)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:29:17 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `i_brand` `t` WHERE status = 1 AND recommend = 1 LIMIT 4
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (45)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:29:17 [trace] [system.CModule] Loading "widgetFactory" application component
+in F:\Dropbox\shadow\frontend\protected\views\layouts\column1.php (1)
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (56)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:29:17 [trace] [system.CModule] Loading "clientScript" application component
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (56)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:29:26 [trace] [system.CModule] Loading "log" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:29:26 [trace] [system.CModule] Loading "request" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:29:26 [trace] [system.CModule] Loading "urlManager" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:29:26 [trace] [system.base.CModule] Loading "core" module
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:29:26 [trace] [system.CModule] Loading "session" application component
+in F:\Dropbox\shadow\frontend\protected\components\Controller.php (33)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:29:26 [trace] [system.CModule] Loading "user" application component
+in F:\Dropbox\shadow\frontend\protected\components\Controller.php (35)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:29:26 [trace] [system.CModule] Loading "db" application component
+in F:\Dropbox\shadow\frontend\protected\modules\core\models\Keyword.php (19)
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (14)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:29:26 [trace] [system.db.CDbConnection] Opening DB connection
+in F:\Dropbox\shadow\frontend\protected\modules\core\models\Keyword.php (19)
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (14)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:29:26 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `i_keyword`
+in F:\Dropbox\shadow\frontend\protected\modules\core\models\Keyword.php (19)
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (14)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:29:26 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `i_keyword`
+in F:\Dropbox\shadow\frontend\protected\modules\core\models\Keyword.php (19)
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (14)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:29:26 [trace] [system.db.ar.CActiveRecord] Keyword.findAll()
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (14)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:29:26 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `i_keyword` `t` ORDER BY id DESC LIMIT 4
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (14)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:29:26 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `i_ad`
+in F:\Dropbox\shadow\frontend\protected\modules\core\models\Ad.php (26)
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (20)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:29:26 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `i_ad`
+in F:\Dropbox\shadow\frontend\protected\modules\core\models\Ad.php (26)
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (20)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:29:26 [trace] [system.db.ar.CActiveRecord] Ad.findAll()
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (20)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:29:26 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `i_ad` `t` WHERE status = 1 AND position = 0 ORDER BY id DESC LIMIT 4
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (20)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:29:26 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `i_item_recommend`
+in F:\Dropbox\shadow\frontend\protected\modules\core\models\ItemRecommend.php (23)
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (25)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:29:26 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `i_item_recommend`
+in F:\Dropbox\shadow\frontend\protected\modules\core\models\ItemRecommend.php (23)
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (25)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:29:26 [trace] [system.db.ar.CActiveRecord] ItemRecommend.findAll()
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (25)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:29:26 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `i_item`
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (25)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:29:26 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `i_item`
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (25)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:29:26 [trace] [system.db.CDbCommand] Querying SQL: SELECT `t`.`id` AS `t0_c0`, `t`.`item_id` AS `t0_c1`, `t`.`img_path` AS `t0_c2`, `t`.`status` AS `t0_c3`, `t`.`type` AS `t0_c4`, `t`.`create_time` AS `t0_c5`, `item`.`id` AS `t1_c0`, `item`.`item_name` AS `t1_c1`, `item`.`item_sn` AS `t1_c2`, `item`.`item_point` AS `t1_c3`, `item`.`item_price` AS `t1_c4`, `item`.`category_one` AS `t1_c5`, `item`.`category_two` AS `t1_c6`, `item`.`category_three` AS `t1_c7`, `item`.`brand_id` AS `t1_c8`, `item`.`share` AS `t1_c9`, `item`.`view` AS `t1_c10`, `item`.`volume` AS `t1_c11`, `item`.`collect` AS `t1_c12`, `item`.`is_shelve` AS `t1_c13`, `item`.`is_delete` AS `t1_c14`, `item`.`is_free_postage` AS `t1_c15`, `item`.`desc` AS `t1_c16`, `item`.`keyword_id` AS `t1_c17`, `item`.`create_time` AS `t1_c18` FROM `i_item_recommend` `t`  LEFT OUTER JOIN `i_item` `item` ON (`t`.`item_id`=`item`.`id`)  WHERE (status = 1 AND type = 0) LIMIT 6
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (25)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:29:26 [trace] [system.db.ar.CActiveRecord] ItemRecommend.findAll()
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (30)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:29:26 [trace] [system.db.CDbCommand] Querying SQL: SELECT `t`.`id` AS `t0_c0`, `t`.`item_id` AS `t0_c1`, `t`.`img_path` AS `t0_c2`, `t`.`status` AS `t0_c3`, `t`.`type` AS `t0_c4`, `t`.`create_time` AS `t0_c5`, `item`.`id` AS `t1_c0`, `item`.`item_name` AS `t1_c1`, `item`.`item_sn` AS `t1_c2`, `item`.`item_point` AS `t1_c3`, `item`.`item_price` AS `t1_c4`, `item`.`category_one` AS `t1_c5`, `item`.`category_two` AS `t1_c6`, `item`.`category_three` AS `t1_c7`, `item`.`brand_id` AS `t1_c8`, `item`.`share` AS `t1_c9`, `item`.`view` AS `t1_c10`, `item`.`volume` AS `t1_c11`, `item`.`collect` AS `t1_c12`, `item`.`is_shelve` AS `t1_c13`, `item`.`is_delete` AS `t1_c14`, `item`.`is_free_postage` AS `t1_c15`, `item`.`desc` AS `t1_c16`, `item`.`keyword_id` AS `t1_c17`, `item`.`create_time` AS `t1_c18` FROM `i_item_recommend` `t`  LEFT OUTER JOIN `i_item` `item` ON (`t`.`item_id`=`item`.`id`)  WHERE (status = 1 AND type = 1) LIMIT 1
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (30)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:29:26 [trace] [system.db.ar.CActiveRecord] ItemRecommend.findAll()
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (35)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:29:26 [trace] [system.db.CDbCommand] Querying SQL: SELECT `t`.`id` AS `t0_c0`, `t`.`item_id` AS `t0_c1`, `t`.`img_path` AS `t0_c2`, `t`.`status` AS `t0_c3`, `t`.`type` AS `t0_c4`, `t`.`create_time` AS `t0_c5`, `item`.`id` AS `t1_c0`, `item`.`item_name` AS `t1_c1`, `item`.`item_sn` AS `t1_c2`, `item`.`item_point` AS `t1_c3`, `item`.`item_price` AS `t1_c4`, `item`.`category_one` AS `t1_c5`, `item`.`category_two` AS `t1_c6`, `item`.`category_three` AS `t1_c7`, `item`.`brand_id` AS `t1_c8`, `item`.`share` AS `t1_c9`, `item`.`view` AS `t1_c10`, `item`.`volume` AS `t1_c11`, `item`.`collect` AS `t1_c12`, `item`.`is_shelve` AS `t1_c13`, `item`.`is_delete` AS `t1_c14`, `item`.`is_free_postage` AS `t1_c15`, `item`.`desc` AS `t1_c16`, `item`.`keyword_id` AS `t1_c17`, `item`.`create_time` AS `t1_c18` FROM `i_item_recommend` `t`  LEFT OUTER JOIN `i_item` `item` ON (`t`.`item_id`=`item`.`id`)  WHERE (status = 1 AND type = 2) LIMIT 1
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (35)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:29:26 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `i_information`
+in F:\Dropbox\shadow\frontend\protected\modules\core\models\Information.php (23)
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (40)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:29:26 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `i_information`
+in F:\Dropbox\shadow\frontend\protected\modules\core\models\Information.php (23)
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (40)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:29:26 [trace] [system.db.ar.CActiveRecord] Information.findAll()
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (40)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:29:26 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `i_information` `t` WHERE status = 1 AND type = 0 LIMIT 3
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (40)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:29:26 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `i_brand`
+in F:\Dropbox\shadow\frontend\protected\modules\core\models\Brand.php (25)
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (45)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:29:26 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `i_brand`
+in F:\Dropbox\shadow\frontend\protected\modules\core\models\Brand.php (25)
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (45)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:29:26 [trace] [system.db.ar.CActiveRecord] Brand.findAll()
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (45)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:29:26 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `i_brand` `t` WHERE status = 1 AND recommend = 1 LIMIT 4
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (45)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:29:26 [trace] [system.CModule] Loading "widgetFactory" application component
+in F:\Dropbox\shadow\frontend\protected\views\layouts\column1.php (1)
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (56)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:29:26 [trace] [system.CModule] Loading "clientScript" application component
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (56)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:29:43 [trace] [system.CModule] Loading "log" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:29:43 [trace] [system.CModule] Loading "request" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:29:43 [trace] [system.CModule] Loading "urlManager" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:29:43 [trace] [system.base.CModule] Loading "core" module
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:29:43 [trace] [system.CModule] Loading "session" application component
+in F:\Dropbox\shadow\frontend\protected\components\Controller.php (33)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:29:43 [trace] [system.CModule] Loading "user" application component
+in F:\Dropbox\shadow\frontend\protected\components\Controller.php (35)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:29:43 [trace] [system.CModule] Loading "db" application component
+in F:\Dropbox\shadow\frontend\protected\modules\core\models\Keyword.php (19)
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (14)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:29:43 [trace] [system.db.CDbConnection] Opening DB connection
+in F:\Dropbox\shadow\frontend\protected\modules\core\models\Keyword.php (19)
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (14)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:29:43 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `i_keyword`
+in F:\Dropbox\shadow\frontend\protected\modules\core\models\Keyword.php (19)
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (14)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:29:43 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `i_keyword`
+in F:\Dropbox\shadow\frontend\protected\modules\core\models\Keyword.php (19)
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (14)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:29:43 [trace] [system.db.ar.CActiveRecord] Keyword.findAll()
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (14)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:29:43 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `i_keyword` `t` ORDER BY id DESC LIMIT 4
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (14)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:29:43 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `i_ad`
+in F:\Dropbox\shadow\frontend\protected\modules\core\models\Ad.php (26)
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (20)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:29:43 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `i_ad`
+in F:\Dropbox\shadow\frontend\protected\modules\core\models\Ad.php (26)
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (20)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:29:43 [trace] [system.db.ar.CActiveRecord] Ad.findAll()
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (20)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:29:43 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `i_ad` `t` WHERE status = 1 AND position = 0 ORDER BY id DESC LIMIT 4
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (20)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:29:43 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `i_item_recommend`
+in F:\Dropbox\shadow\frontend\protected\modules\core\models\ItemRecommend.php (23)
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (25)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:29:43 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `i_item_recommend`
+in F:\Dropbox\shadow\frontend\protected\modules\core\models\ItemRecommend.php (23)
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (25)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:29:43 [trace] [system.db.ar.CActiveRecord] ItemRecommend.findAll()
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (25)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:29:43 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `i_item`
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (25)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:29:43 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `i_item`
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (25)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:29:43 [trace] [system.db.CDbCommand] Querying SQL: SELECT `t`.`id` AS `t0_c0`, `t`.`item_id` AS `t0_c1`, `t`.`img_path` AS `t0_c2`, `t`.`status` AS `t0_c3`, `t`.`type` AS `t0_c4`, `t`.`create_time` AS `t0_c5`, `item`.`id` AS `t1_c0`, `item`.`item_name` AS `t1_c1`, `item`.`item_sn` AS `t1_c2`, `item`.`item_point` AS `t1_c3`, `item`.`item_price` AS `t1_c4`, `item`.`category_one` AS `t1_c5`, `item`.`category_two` AS `t1_c6`, `item`.`category_three` AS `t1_c7`, `item`.`brand_id` AS `t1_c8`, `item`.`share` AS `t1_c9`, `item`.`view` AS `t1_c10`, `item`.`volume` AS `t1_c11`, `item`.`collect` AS `t1_c12`, `item`.`is_shelve` AS `t1_c13`, `item`.`is_delete` AS `t1_c14`, `item`.`is_free_postage` AS `t1_c15`, `item`.`desc` AS `t1_c16`, `item`.`keyword_id` AS `t1_c17`, `item`.`create_time` AS `t1_c18` FROM `i_item_recommend` `t`  LEFT OUTER JOIN `i_item` `item` ON (`t`.`item_id`=`item`.`id`)  WHERE (status = 1 AND type = 0) LIMIT 6
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (25)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:29:43 [trace] [system.db.ar.CActiveRecord] ItemRecommend.findAll()
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (30)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:29:43 [trace] [system.db.CDbCommand] Querying SQL: SELECT `t`.`id` AS `t0_c0`, `t`.`item_id` AS `t0_c1`, `t`.`img_path` AS `t0_c2`, `t`.`status` AS `t0_c3`, `t`.`type` AS `t0_c4`, `t`.`create_time` AS `t0_c5`, `item`.`id` AS `t1_c0`, `item`.`item_name` AS `t1_c1`, `item`.`item_sn` AS `t1_c2`, `item`.`item_point` AS `t1_c3`, `item`.`item_price` AS `t1_c4`, `item`.`category_one` AS `t1_c5`, `item`.`category_two` AS `t1_c6`, `item`.`category_three` AS `t1_c7`, `item`.`brand_id` AS `t1_c8`, `item`.`share` AS `t1_c9`, `item`.`view` AS `t1_c10`, `item`.`volume` AS `t1_c11`, `item`.`collect` AS `t1_c12`, `item`.`is_shelve` AS `t1_c13`, `item`.`is_delete` AS `t1_c14`, `item`.`is_free_postage` AS `t1_c15`, `item`.`desc` AS `t1_c16`, `item`.`keyword_id` AS `t1_c17`, `item`.`create_time` AS `t1_c18` FROM `i_item_recommend` `t`  LEFT OUTER JOIN `i_item` `item` ON (`t`.`item_id`=`item`.`id`)  WHERE (status = 1 AND type = 1) LIMIT 1
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (30)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:29:43 [trace] [system.db.ar.CActiveRecord] ItemRecommend.findAll()
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (35)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:29:43 [trace] [system.db.CDbCommand] Querying SQL: SELECT `t`.`id` AS `t0_c0`, `t`.`item_id` AS `t0_c1`, `t`.`img_path` AS `t0_c2`, `t`.`status` AS `t0_c3`, `t`.`type` AS `t0_c4`, `t`.`create_time` AS `t0_c5`, `item`.`id` AS `t1_c0`, `item`.`item_name` AS `t1_c1`, `item`.`item_sn` AS `t1_c2`, `item`.`item_point` AS `t1_c3`, `item`.`item_price` AS `t1_c4`, `item`.`category_one` AS `t1_c5`, `item`.`category_two` AS `t1_c6`, `item`.`category_three` AS `t1_c7`, `item`.`brand_id` AS `t1_c8`, `item`.`share` AS `t1_c9`, `item`.`view` AS `t1_c10`, `item`.`volume` AS `t1_c11`, `item`.`collect` AS `t1_c12`, `item`.`is_shelve` AS `t1_c13`, `item`.`is_delete` AS `t1_c14`, `item`.`is_free_postage` AS `t1_c15`, `item`.`desc` AS `t1_c16`, `item`.`keyword_id` AS `t1_c17`, `item`.`create_time` AS `t1_c18` FROM `i_item_recommend` `t`  LEFT OUTER JOIN `i_item` `item` ON (`t`.`item_id`=`item`.`id`)  WHERE (status = 1 AND type = 2) LIMIT 1
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (35)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:29:43 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `i_information`
+in F:\Dropbox\shadow\frontend\protected\modules\core\models\Information.php (23)
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (40)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:29:43 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `i_information`
+in F:\Dropbox\shadow\frontend\protected\modules\core\models\Information.php (23)
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (40)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:29:43 [trace] [system.db.ar.CActiveRecord] Information.findAll()
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (40)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:29:43 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `i_information` `t` WHERE status = 1 AND type = 0 LIMIT 3
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (40)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:29:43 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `i_brand`
+in F:\Dropbox\shadow\frontend\protected\modules\core\models\Brand.php (25)
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (45)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:29:43 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `i_brand`
+in F:\Dropbox\shadow\frontend\protected\modules\core\models\Brand.php (25)
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (45)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:29:43 [trace] [system.db.ar.CActiveRecord] Brand.findAll()
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (45)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:29:43 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `i_brand` `t` WHERE status = 1 AND recommend = 1 LIMIT 4
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (45)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:29:43 [trace] [system.CModule] Loading "widgetFactory" application component
+in F:\Dropbox\shadow\frontend\protected\views\layouts\column1.php (1)
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (56)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:29:43 [trace] [system.CModule] Loading "clientScript" application component
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\DefaultController.php (56)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:29:51 [trace] [system.CModule] Loading "log" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:29:51 [trace] [system.CModule] Loading "request" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:29:51 [trace] [system.CModule] Loading "urlManager" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:29:51 [trace] [system.base.CModule] Loading "core" module
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:29:51 [trace] [system.CModule] Loading "session" application component
+in F:\Dropbox\shadow\frontend\protected\components\Controller.php (33)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:29:51 [trace] [system.CModule] Loading "user" application component
+in F:\Dropbox\shadow\frontend\protected\components\Controller.php (35)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:29:51 [trace] [system.CModule] Loading "widgetFactory" application component
+in F:\Dropbox\shadow\frontend\protected\views\layouts\column1.php (1)
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\ProductController.php (11)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:29:51 [trace] [system.CModule] Loading "clientScript" application component
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\ProductController.php (11)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:29:51 [trace] [system.CModule] Loading "log" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:29:51 [trace] [system.CModule] Loading "request" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:29:51 [trace] [system.CModule] Loading "urlManager" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:29:51 [trace] [system.CModule] Loading "coreMessages" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:29:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "source/css/images/List/List_order_hot.png"。' in F:\Dropbox\shadow\frontend\framework\web\CWebApplication.php:280
+Stack trace:
+#0 F:\Dropbox\shadow\frontend\framework\web\CWebApplication.php(135): CWebApplication->runController('source/css/imag...')
+#1 F:\Dropbox\shadow\frontend\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 F:\Dropbox\shadow\frontend\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/frontend/source/css/images/List/List_order_hot.png
+HTTP_REFERER=http://127.0.0.1/frontend/core/product
+---
+2012/11/07 15:29:51 [trace] [system.CModule] Loading "errorHandler" application component
+2012/11/07 15:29:51 [trace] [system.CModule] Loading "clientScript" application component
+in F:\Dropbox\shadow\frontend\protected\controllers\SiteController.php (47)
+2012/11/07 15:29:51 [trace] [system.CModule] Loading "log" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:29:51 [trace] [system.CModule] Loading "request" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:29:51 [trace] [system.CModule] Loading "urlManager" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:29:51 [trace] [system.CModule] Loading "coreMessages" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:29:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "source/css/images/List/List_order_time.png"。' in F:\Dropbox\shadow\frontend\framework\web\CWebApplication.php:280
+Stack trace:
+#0 F:\Dropbox\shadow\frontend\framework\web\CWebApplication.php(135): CWebApplication->runController('source/css/imag...')
+#1 F:\Dropbox\shadow\frontend\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 F:\Dropbox\shadow\frontend\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/frontend/source/css/images/List/List_order_time.png
+HTTP_REFERER=http://127.0.0.1/frontend/core/product
+---
+2012/11/07 15:29:51 [trace] [system.CModule] Loading "errorHandler" application component
+2012/11/07 15:29:51 [trace] [system.CModule] Loading "clientScript" application component
+in F:\Dropbox\shadow\frontend\protected\controllers\SiteController.php (47)
+2012/11/07 15:29:51 [trace] [system.CModule] Loading "log" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:29:51 [trace] [system.CModule] Loading "request" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:29:51 [trace] [system.CModule] Loading "urlManager" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:29:51 [trace] [system.CModule] Loading "coreMessages" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:29:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "source/css/images/List/List_order_up.png"。' in F:\Dropbox\shadow\frontend\framework\web\CWebApplication.php:280
+Stack trace:
+#0 F:\Dropbox\shadow\frontend\framework\web\CWebApplication.php(135): CWebApplication->runController('source/css/imag...')
+#1 F:\Dropbox\shadow\frontend\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 F:\Dropbox\shadow\frontend\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/frontend/source/css/images/List/List_order_up.png
+HTTP_REFERER=http://127.0.0.1/frontend/core/product
+---
+2012/11/07 15:29:51 [trace] [system.CModule] Loading "errorHandler" application component
+2012/11/07 15:29:51 [trace] [system.CModule] Loading "clientScript" application component
+in F:\Dropbox\shadow\frontend\protected\controllers\SiteController.php (47)
+2012/11/07 15:29:51 [trace] [system.CModule] Loading "log" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:29:51 [trace] [system.CModule] Loading "request" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:29:51 [trace] [system.CModule] Loading "urlManager" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:29:51 [trace] [system.CModule] Loading "coreMessages" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:29:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "source/css/images/List/List_order_down.png"。' in F:\Dropbox\shadow\frontend\framework\web\CWebApplication.php:280
+Stack trace:
+#0 F:\Dropbox\shadow\frontend\framework\web\CWebApplication.php(135): CWebApplication->runController('source/css/imag...')
+#1 F:\Dropbox\shadow\frontend\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 F:\Dropbox\shadow\frontend\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/frontend/source/css/images/List/List_order_down.png
+HTTP_REFERER=http://127.0.0.1/frontend/core/product
+---
+2012/11/07 15:29:51 [trace] [system.CModule] Loading "errorHandler" application component
+2012/11/07 15:29:51 [trace] [system.CModule] Loading "clientScript" application component
+in F:\Dropbox\shadow\frontend\protected\controllers\SiteController.php (47)
+2012/11/07 15:29:51 [trace] [system.CModule] Loading "log" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:29:51 [trace] [system.CModule] Loading "request" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:29:51 [trace] [system.CModule] Loading "urlManager" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:29:51 [trace] [system.CModule] Loading "coreMessages" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:29:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "source/css/images/List/List_like.png"。' in F:\Dropbox\shadow\frontend\framework\web\CWebApplication.php:280
+Stack trace:
+#0 F:\Dropbox\shadow\frontend\framework\web\CWebApplication.php(135): CWebApplication->runController('source/css/imag...')
+#1 F:\Dropbox\shadow\frontend\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 F:\Dropbox\shadow\frontend\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/frontend/source/css/images/List/List_like.png
+HTTP_REFERER=http://127.0.0.1/frontend/core/product
+---
+2012/11/07 15:29:51 [trace] [system.CModule] Loading "errorHandler" application component
+2012/11/07 15:29:51 [trace] [system.CModule] Loading "clientScript" application component
+in F:\Dropbox\shadow\frontend\protected\controllers\SiteController.php (47)
+2012/11/07 15:29:51 [trace] [system.CModule] Loading "log" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:29:51 [trace] [system.CModule] Loading "request" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:29:51 [trace] [system.CModule] Loading "urlManager" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:29:51 [trace] [system.CModule] Loading "coreMessages" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:29:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "source/css/images/List/List_page_unnext.png"。' in F:\Dropbox\shadow\frontend\framework\web\CWebApplication.php:280
+Stack trace:
+#0 F:\Dropbox\shadow\frontend\framework\web\CWebApplication.php(135): CWebApplication->runController('source/css/imag...')
+#1 F:\Dropbox\shadow\frontend\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 F:\Dropbox\shadow\frontend\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/frontend/source/css/images/List/List_page_unnext.png
+HTTP_REFERER=http://127.0.0.1/frontend/core/product
+---
+2012/11/07 15:29:51 [trace] [system.CModule] Loading "errorHandler" application component
+2012/11/07 15:29:51 [trace] [system.CModule] Loading "clientScript" application component
+in F:\Dropbox\shadow\frontend\protected\controllers\SiteController.php (47)
+2012/11/07 15:29:51 [trace] [system.CModule] Loading "log" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:29:51 [trace] [system.CModule] Loading "request" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:29:51 [trace] [system.CModule] Loading "urlManager" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:29:51 [trace] [system.CModule] Loading "coreMessages" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:29:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "source/css/images/List/List_page_next.png"。' in F:\Dropbox\shadow\frontend\framework\web\CWebApplication.php:280
+Stack trace:
+#0 F:\Dropbox\shadow\frontend\framework\web\CWebApplication.php(135): CWebApplication->runController('source/css/imag...')
+#1 F:\Dropbox\shadow\frontend\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 F:\Dropbox\shadow\frontend\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/frontend/source/css/images/List/List_page_next.png
+HTTP_REFERER=http://127.0.0.1/frontend/core/product
+---
+2012/11/07 15:29:51 [trace] [system.CModule] Loading "errorHandler" application component
+2012/11/07 15:29:51 [trace] [system.CModule] Loading "clientScript" application component
+in F:\Dropbox\shadow\frontend\protected\controllers\SiteController.php (47)
+2012/11/07 15:29:51 [trace] [system.CModule] Loading "log" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:29:51 [trace] [system.CModule] Loading "request" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:29:51 [trace] [system.CModule] Loading "urlManager" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:29:51 [trace] [system.CModule] Loading "coreMessages" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:29:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "source/css/images/List/List_left_title.png"。' in F:\Dropbox\shadow\frontend\framework\web\CWebApplication.php:280
+Stack trace:
+#0 F:\Dropbox\shadow\frontend\framework\web\CWebApplication.php(135): CWebApplication->runController('source/css/imag...')
+#1 F:\Dropbox\shadow\frontend\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 F:\Dropbox\shadow\frontend\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/frontend/source/css/images/List/List_left_title.png
+HTTP_REFERER=http://127.0.0.1/frontend/core/product
+---
+2012/11/07 15:29:51 [trace] [system.CModule] Loading "errorHandler" application component
+2012/11/07 15:29:51 [trace] [system.CModule] Loading "clientScript" application component
+in F:\Dropbox\shadow\frontend\protected\controllers\SiteController.php (47)
+2012/11/07 15:36:38 [trace] [system.CModule] Loading "log" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:36:38 [trace] [system.CModule] Loading "request" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:36:38 [trace] [system.CModule] Loading "urlManager" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:36:38 [trace] [system.base.CModule] Loading "core" module
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:36:38 [trace] [system.CModule] Loading "session" application component
+in F:\Dropbox\shadow\frontend\protected\components\Controller.php (33)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:36:38 [trace] [system.CModule] Loading "user" application component
+in F:\Dropbox\shadow\frontend\protected\components\Controller.php (35)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:36:38 [trace] [system.CModule] Loading "widgetFactory" application component
+in F:\Dropbox\shadow\frontend\protected\views\layouts\column1.php (1)
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\ProductController.php (26)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:36:38 [trace] [system.CModule] Loading "clientScript" application component
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\ProductController.php (26)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:38:43 [trace] [system.CModule] Loading "log" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:38:43 [trace] [system.CModule] Loading "request" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:38:43 [trace] [system.CModule] Loading "urlManager" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:38:43 [trace] [system.base.CModule] Loading "core" module
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:38:43 [trace] [system.CModule] Loading "session" application component
+in F:\Dropbox\shadow\frontend\protected\components\Controller.php (33)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:38:43 [trace] [system.CModule] Loading "user" application component
+in F:\Dropbox\shadow\frontend\protected\components\Controller.php (35)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:38:43 [trace] [system.CModule] Loading "db" application component
+in F:\Dropbox\shadow\frontend\protected\modules\core\models\Item.php (37)
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\ProductController.php (13)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:38:43 [trace] [system.db.CDbConnection] Opening DB connection
+in F:\Dropbox\shadow\frontend\protected\modules\core\models\Item.php (37)
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\ProductController.php (13)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:38:43 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `i_item`
+in F:\Dropbox\shadow\frontend\protected\modules\core\models\Item.php (37)
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\ProductController.php (13)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:38:43 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `i_item`
+in F:\Dropbox\shadow\frontend\protected\modules\core\models\Item.php (37)
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\ProductController.php (13)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:38:43 [trace] [system.db.ar.CActiveRecord] Item.count()
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\ProductController.php (13)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:38:43 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `i_item` `t` WHERE is_shelve = 1 AND is_delete = 1
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\ProductController.php (13)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:38:43 [trace] [system.db.ar.CActiveRecord] Item.findAll()
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\ProductController.php (17)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:38:43 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `i_item` `t` WHERE is_shelve = 1 AND is_delete = 1 LIMIT 12
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\ProductController.php (17)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:38:43 [trace] [system.CModule] Loading "widgetFactory" application component
+in F:\Dropbox\shadow\frontend\protected\views\layouts\column1.php (1)
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\ProductController.php (18)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:38:43 [trace] [system.CModule] Loading "clientScript" application component
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\ProductController.php (18)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:52:23 [trace] [system.CModule] Loading "log" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:52:23 [trace] [system.CModule] Loading "request" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:52:23 [trace] [system.CModule] Loading "urlManager" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:52:23 [trace] [system.base.CModule] Loading "core" module
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:52:23 [trace] [system.CModule] Loading "session" application component
+in F:\Dropbox\shadow\frontend\protected\components\Controller.php (33)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:52:23 [trace] [system.CModule] Loading "user" application component
+in F:\Dropbox\shadow\frontend\protected\components\Controller.php (35)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:52:23 [trace] [system.CModule] Loading "db" application component
+in F:\Dropbox\shadow\frontend\protected\modules\core\models\Item.php (37)
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\ProductController.php (14)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:52:23 [trace] [system.db.CDbConnection] Opening DB connection
+in F:\Dropbox\shadow\frontend\protected\modules\core\models\Item.php (37)
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\ProductController.php (14)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:52:23 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `i_item`
+in F:\Dropbox\shadow\frontend\protected\modules\core\models\Item.php (37)
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\ProductController.php (14)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:52:23 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `i_item`
+in F:\Dropbox\shadow\frontend\protected\modules\core\models\Item.php (37)
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\ProductController.php (14)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:52:23 [trace] [system.db.ar.CActiveRecord] Item.count()
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\ProductController.php (14)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:52:23 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `i_item` `t` WHERE is_shelve = 1 AND is_delete = 1
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\ProductController.php (14)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:52:23 [trace] [system.db.ar.CActiveRecord] Item.findAll()
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\ProductController.php (18)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:52:23 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `i_item` `t` WHERE is_shelve = 1 AND is_delete = 1 LIMIT 12
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\ProductController.php (18)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:52:23 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `i_item_recommend`
+in F:\Dropbox\shadow\frontend\protected\modules\core\models\ItemRecommend.php (23)
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\ProductController.php (23)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:52:23 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `i_item_recommend`
+in F:\Dropbox\shadow\frontend\protected\modules\core\models\ItemRecommend.php (23)
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\ProductController.php (23)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:52:23 [trace] [system.db.ar.CActiveRecord] ItemRecommend.findAll()
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\ProductController.php (23)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:52:23 [trace] [system.db.CDbCommand] Querying SQL: SELECT `t`.`id` AS `t0_c0`, `t`.`item_id` AS `t0_c1`, `t`.`img_path` AS `t0_c2`, `t`.`status` AS `t0_c3`, `t`.`type` AS `t0_c4`, `t`.`create_time` AS `t0_c5`, `item`.`id` AS `t1_c0`, `item`.`item_name` AS `t1_c1`, `item`.`item_sn` AS `t1_c2`, `item`.`item_point` AS `t1_c3`, `item`.`item_price` AS `t1_c4`, `item`.`category_one` AS `t1_c5`, `item`.`category_two` AS `t1_c6`, `item`.`category_three` AS `t1_c7`, `item`.`brand_id` AS `t1_c8`, `item`.`share` AS `t1_c9`, `item`.`view` AS `t1_c10`, `item`.`volume` AS `t1_c11`, `item`.`collect` AS `t1_c12`, `item`.`is_shelve` AS `t1_c13`, `item`.`is_delete` AS `t1_c14`, `item`.`is_free_postage` AS `t1_c15`, `item`.`desc` AS `t1_c16`, `item`.`keyword_id` AS `t1_c17`, `item`.`create_time` AS `t1_c18` FROM `i_item_recommend` `t`  LEFT OUTER JOIN `i_item` `item` ON (`t`.`item_id`=`item`.`id`)  WHERE (status = 1 AND type = 3) LIMIT 1
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\ProductController.php (23)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:52:23 [trace] [system.db.ar.CActiveRecord] ItemRecommend.findAll()
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\ProductController.php (28)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:52:23 [trace] [system.db.CDbCommand] Querying SQL: SELECT `t`.`id` AS `t0_c0`, `t`.`item_id` AS `t0_c1`, `t`.`img_path` AS `t0_c2`, `t`.`status` AS `t0_c3`, `t`.`type` AS `t0_c4`, `t`.`create_time` AS `t0_c5`, `item`.`id` AS `t1_c0`, `item`.`item_name` AS `t1_c1`, `item`.`item_sn` AS `t1_c2`, `item`.`item_point` AS `t1_c3`, `item`.`item_price` AS `t1_c4`, `item`.`category_one` AS `t1_c5`, `item`.`category_two` AS `t1_c6`, `item`.`category_three` AS `t1_c7`, `item`.`brand_id` AS `t1_c8`, `item`.`share` AS `t1_c9`, `item`.`view` AS `t1_c10`, `item`.`volume` AS `t1_c11`, `item`.`collect` AS `t1_c12`, `item`.`is_shelve` AS `t1_c13`, `item`.`is_delete` AS `t1_c14`, `item`.`is_free_postage` AS `t1_c15`, `item`.`desc` AS `t1_c16`, `item`.`keyword_id` AS `t1_c17`, `item`.`create_time` AS `t1_c18` FROM `i_item_recommend` `t`  LEFT OUTER JOIN `i_item` `item` ON (`t`.`item_id`=`item`.`id`)  WHERE (status = 1 AND type = 4) LIMIT 1
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\ProductController.php (28)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:52:23 [trace] [system.db.ar.CActiveRecord] ItemRecommend.findAll()
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\ProductController.php (33)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:52:23 [trace] [system.db.CDbCommand] Querying SQL: SELECT `t`.`id` AS `t0_c0`, `t`.`item_id` AS `t0_c1`, `t`.`img_path` AS `t0_c2`, `t`.`status` AS `t0_c3`, `t`.`type` AS `t0_c4`, `t`.`create_time` AS `t0_c5`, `item`.`id` AS `t1_c0`, `item`.`item_name` AS `t1_c1`, `item`.`item_sn` AS `t1_c2`, `item`.`item_point` AS `t1_c3`, `item`.`item_price` AS `t1_c4`, `item`.`category_one` AS `t1_c5`, `item`.`category_two` AS `t1_c6`, `item`.`category_three` AS `t1_c7`, `item`.`brand_id` AS `t1_c8`, `item`.`share` AS `t1_c9`, `item`.`view` AS `t1_c10`, `item`.`volume` AS `t1_c11`, `item`.`collect` AS `t1_c12`, `item`.`is_shelve` AS `t1_c13`, `item`.`is_delete` AS `t1_c14`, `item`.`is_free_postage` AS `t1_c15`, `item`.`desc` AS `t1_c16`, `item`.`keyword_id` AS `t1_c17`, `item`.`create_time` AS `t1_c18` FROM `i_item_recommend` `t`  LEFT OUTER JOIN `i_item` `item` ON (`t`.`item_id`=`item`.`id`)  WHERE (status = 1 AND type = 5) LIMIT 1
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\ProductController.php (33)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:52:23 [trace] [system.db.ar.CActiveRecord] ItemRecommend.findAll()
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\ProductController.php (38)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:52:23 [trace] [system.db.CDbCommand] Querying SQL: SELECT `t`.`id` AS `t0_c0`, `t`.`item_id` AS `t0_c1`, `t`.`img_path` AS `t0_c2`, `t`.`status` AS `t0_c3`, `t`.`type` AS `t0_c4`, `t`.`create_time` AS `t0_c5`, `item`.`id` AS `t1_c0`, `item`.`item_name` AS `t1_c1`, `item`.`item_sn` AS `t1_c2`, `item`.`item_point` AS `t1_c3`, `item`.`item_price` AS `t1_c4`, `item`.`category_one` AS `t1_c5`, `item`.`category_two` AS `t1_c6`, `item`.`category_three` AS `t1_c7`, `item`.`brand_id` AS `t1_c8`, `item`.`share` AS `t1_c9`, `item`.`view` AS `t1_c10`, `item`.`volume` AS `t1_c11`, `item`.`collect` AS `t1_c12`, `item`.`is_shelve` AS `t1_c13`, `item`.`is_delete` AS `t1_c14`, `item`.`is_free_postage` AS `t1_c15`, `item`.`desc` AS `t1_c16`, `item`.`keyword_id` AS `t1_c17`, `item`.`create_time` AS `t1_c18` FROM `i_item_recommend` `t`  LEFT OUTER JOIN `i_item` `item` ON (`t`.`item_id`=`item`.`id`)  WHERE (status = 1 AND type = 6) LIMIT 1
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\ProductController.php (38)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:52:23 [trace] [system.CModule] Loading "widgetFactory" application component
+in F:\Dropbox\shadow\frontend\protected\views\layouts\column1.php (1)
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\ProductController.php (40)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:52:23 [trace] [system.CModule] Loading "clientScript" application component
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\ProductController.php (40)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:52:25 [trace] [system.CModule] Loading "log" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:52:25 [trace] [system.CModule] Loading "request" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:52:25 [trace] [system.CModule] Loading "urlManager" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:52:25 [trace] [system.base.CModule] Loading "core" module
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:52:25 [trace] [system.CModule] Loading "session" application component
+in F:\Dropbox\shadow\frontend\protected\components\Controller.php (33)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:52:25 [trace] [system.CModule] Loading "user" application component
+in F:\Dropbox\shadow\frontend\protected\components\Controller.php (35)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:52:25 [trace] [system.CModule] Loading "widgetFactory" application component
+in F:\Dropbox\shadow\frontend\protected\views\layouts\column1.php (1)
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\ProductController.php (48)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:52:25 [trace] [system.CModule] Loading "clientScript" application component
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\ProductController.php (48)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:52:25 [trace] [system.CModule] Loading "log" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:52:25 [trace] [system.CModule] Loading "request" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:52:25 [trace] [system.CModule] Loading "urlManager" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:52:25 [trace] [system.base.CModule] Loading "core" module
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:52:25 [trace] [system.CModule] Loading "session" application component
+in F:\Dropbox\shadow\frontend\protected\components\Controller.php (33)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:52:25 [trace] [system.CModule] Loading "user" application component
+in F:\Dropbox\shadow\frontend\protected\components\Controller.php (35)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:52:25 [trace] [system.CModule] Loading "widgetFactory" application component
+in F:\Dropbox\shadow\frontend\protected\views\layouts\column1.php (1)
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\ProductController.php (48)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 15:52:25 [trace] [system.CModule] Loading "clientScript" application component
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\ProductController.php (48)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:00:22 [trace] [system.CModule] Loading "log" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:00:22 [trace] [system.CModule] Loading "request" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:00:22 [trace] [system.CModule] Loading "urlManager" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:00:22 [trace] [system.base.CModule] Loading "passport" module
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:00:22 [trace] [system.CModule] Loading "session" application component
+in F:\Dropbox\shadow\frontend\protected\components\Controller.php (33)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:00:22 [trace] [system.CModule] Loading "user" application component
+in F:\Dropbox\shadow\frontend\protected\components\Controller.php (35)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:00:22 [trace] [system.CModule] Loading "clientScript" application component
+in F:\Dropbox\shadow\frontend\protected\modules\passport\controllers\DefaultController.php (31)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:00:24 [trace] [system.CModule] Loading "log" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:00:24 [trace] [system.CModule] Loading "request" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:00:24 [trace] [system.CModule] Loading "urlManager" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:00:24 [trace] [system.base.CModule] Loading "passport" module
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:00:24 [trace] [system.CModule] Loading "session" application component
+in F:\Dropbox\shadow\frontend\protected\components\Controller.php (33)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:00:24 [trace] [system.CModule] Loading "user" application component
+in F:\Dropbox\shadow\frontend\protected\components\Controller.php (35)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:00:24 [trace] [system.CModule] Loading "clientScript" application component
+in F:\Dropbox\shadow\frontend\protected\modules\passport\controllers\DefaultController.php (31)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:00:39 [trace] [system.CModule] Loading "log" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:00:39 [trace] [system.CModule] Loading "request" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:00:39 [trace] [system.CModule] Loading "urlManager" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:00:39 [trace] [system.base.CModule] Loading "passport" module
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:00:39 [trace] [system.CModule] Loading "session" application component
+in F:\Dropbox\shadow\frontend\protected\components\Controller.php (33)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:00:39 [trace] [system.CModule] Loading "user" application component
+in F:\Dropbox\shadow\frontend\protected\components\Controller.php (35)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:00:39 [trace] [system.CModule] Loading "widgetFactory" application component
+in F:\Dropbox\shadow\frontend\protected\views\layouts\column1.php (1)
+in F:\Dropbox\shadow\frontend\protected\modules\passport\controllers\DefaultController.php (30)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:00:39 [trace] [system.CModule] Loading "clientScript" application component
+in F:\Dropbox\shadow\frontend\protected\modules\passport\controllers\DefaultController.php (30)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:01:07 [trace] [system.CModule] Loading "log" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:01:07 [trace] [system.CModule] Loading "request" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:01:07 [trace] [system.CModule] Loading "urlManager" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:01:07 [trace] [system.base.CModule] Loading "passport" module
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:01:07 [trace] [system.CModule] Loading "session" application component
+in F:\Dropbox\shadow\frontend\protected\components\Controller.php (33)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:01:07 [trace] [system.CModule] Loading "user" application component
+in F:\Dropbox\shadow\frontend\protected\components\Controller.php (35)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:01:07 [trace] [system.CModule] Loading "widgetFactory" application component
+in F:\Dropbox\shadow\frontend\protected\views\layouts\column1.php (1)
+in F:\Dropbox\shadow\frontend\protected\modules\passport\controllers\DefaultController.php (30)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:01:07 [trace] [system.CModule] Loading "clientScript" application component
+in F:\Dropbox\shadow\frontend\protected\modules\passport\controllers\DefaultController.php (30)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:01:08 [trace] [system.CModule] Loading "log" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:01:08 [trace] [system.CModule] Loading "request" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:01:08 [trace] [system.CModule] Loading "urlManager" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:01:08 [trace] [system.base.CModule] Loading "passport" module
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:01:08 [trace] [system.CModule] Loading "session" application component
+in F:\Dropbox\shadow\frontend\protected\components\Controller.php (33)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:01:08 [trace] [system.CModule] Loading "user" application component
+in F:\Dropbox\shadow\frontend\protected\components\Controller.php (35)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:01:08 [trace] [system.CModule] Loading "widgetFactory" application component
+in F:\Dropbox\shadow\frontend\protected\views\layouts\column1.php (1)
+in F:\Dropbox\shadow\frontend\protected\modules\passport\controllers\DefaultController.php (30)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:01:08 [trace] [system.CModule] Loading "clientScript" application component
+in F:\Dropbox\shadow\frontend\protected\modules\passport\controllers\DefaultController.php (30)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:01:08 [trace] [system.CModule] Loading "log" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:01:08 [trace] [system.CModule] Loading "request" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:01:08 [trace] [system.CModule] Loading "urlManager" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:01:08 [trace] [system.base.CModule] Loading "passport" module
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:01:08 [trace] [system.CModule] Loading "session" application component
+in F:\Dropbox\shadow\frontend\protected\components\Controller.php (33)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:01:08 [trace] [system.CModule] Loading "user" application component
+in F:\Dropbox\shadow\frontend\protected\components\Controller.php (35)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:01:08 [trace] [system.CModule] Loading "widgetFactory" application component
+in F:\Dropbox\shadow\frontend\protected\views\layouts\column1.php (1)
+in F:\Dropbox\shadow\frontend\protected\modules\passport\controllers\DefaultController.php (30)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:01:08 [trace] [system.CModule] Loading "clientScript" application component
+in F:\Dropbox\shadow\frontend\protected\modules\passport\controllers\DefaultController.php (30)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:01:08 [trace] [system.CModule] Loading "log" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:01:08 [trace] [system.CModule] Loading "request" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:01:08 [trace] [system.CModule] Loading "urlManager" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:01:08 [trace] [system.base.CModule] Loading "passport" module
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:01:08 [trace] [system.CModule] Loading "session" application component
+in F:\Dropbox\shadow\frontend\protected\components\Controller.php (33)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:01:08 [trace] [system.CModule] Loading "user" application component
+in F:\Dropbox\shadow\frontend\protected\components\Controller.php (35)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:01:08 [trace] [system.CModule] Loading "widgetFactory" application component
+in F:\Dropbox\shadow\frontend\protected\views\layouts\column1.php (1)
+in F:\Dropbox\shadow\frontend\protected\modules\passport\controllers\DefaultController.php (30)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:01:08 [trace] [system.CModule] Loading "clientScript" application component
+in F:\Dropbox\shadow\frontend\protected\modules\passport\controllers\DefaultController.php (30)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:01:19 [trace] [system.CModule] Loading "log" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:01:19 [trace] [system.CModule] Loading "request" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:01:19 [trace] [system.CModule] Loading "urlManager" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:01:19 [trace] [system.base.CModule] Loading "passport" module
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:01:19 [trace] [system.CModule] Loading "session" application component
+in F:\Dropbox\shadow\frontend\protected\components\Controller.php (33)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:01:19 [trace] [system.CModule] Loading "user" application component
+in F:\Dropbox\shadow\frontend\protected\components\Controller.php (35)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:01:19 [trace] [system.CModule] Loading "widgetFactory" application component
+in F:\Dropbox\shadow\frontend\protected\views\layouts\column1.php (1)
+in F:\Dropbox\shadow\frontend\protected\modules\passport\controllers\DefaultController.php (30)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:01:19 [trace] [system.CModule] Loading "clientScript" application component
+in F:\Dropbox\shadow\frontend\protected\modules\passport\controllers\DefaultController.php (30)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:01:28 [trace] [system.CModule] Loading "log" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:01:28 [trace] [system.CModule] Loading "request" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:01:28 [trace] [system.CModule] Loading "urlManager" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:01:28 [trace] [system.base.CModule] Loading "passport" module
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:01:28 [trace] [system.CModule] Loading "session" application component
+in F:\Dropbox\shadow\frontend\protected\components\Controller.php (33)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:01:28 [trace] [system.CModule] Loading "user" application component
+in F:\Dropbox\shadow\frontend\protected\components\Controller.php (35)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:01:28 [trace] [system.CModule] Loading "widgetFactory" application component
+in F:\Dropbox\shadow\frontend\protected\views\layouts\column1.php (1)
+in F:\Dropbox\shadow\frontend\protected\modules\passport\controllers\DefaultController.php (30)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:01:28 [trace] [system.CModule] Loading "clientScript" application component
+in F:\Dropbox\shadow\frontend\protected\modules\passport\controllers\DefaultController.php (30)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:02:25 [trace] [system.CModule] Loading "log" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:02:25 [trace] [system.CModule] Loading "request" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:02:25 [trace] [system.CModule] Loading "urlManager" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:02:25 [trace] [system.base.CModule] Loading "passport" module
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:02:25 [trace] [system.CModule] Loading "session" application component
+in F:\Dropbox\shadow\frontend\protected\components\Controller.php (33)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:02:25 [trace] [system.CModule] Loading "user" application component
+in F:\Dropbox\shadow\frontend\protected\components\Controller.php (35)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:02:25 [trace] [system.CModule] Loading "widgetFactory" application component
+in F:\Dropbox\shadow\frontend\protected\views\layouts\column1.php (1)
+in F:\Dropbox\shadow\frontend\protected\modules\passport\controllers\DefaultController.php (30)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:02:25 [trace] [system.CModule] Loading "clientScript" application component
+in F:\Dropbox\shadow\frontend\protected\modules\passport\controllers\DefaultController.php (30)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:05:41 [trace] [system.CModule] Loading "log" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:05:41 [trace] [system.CModule] Loading "request" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:05:41 [trace] [system.CModule] Loading "urlManager" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:05:41 [trace] [system.base.CModule] Loading "core" module
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:05:41 [trace] [system.CModule] Loading "session" application component
+in F:\Dropbox\shadow\frontend\protected\components\Controller.php (33)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:05:41 [trace] [system.CModule] Loading "user" application component
+in F:\Dropbox\shadow\frontend\protected\components\Controller.php (35)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:05:41 [trace] [system.CModule] Loading "db" application component
+in F:\Dropbox\shadow\frontend\protected\modules\core\models\Item.php (37)
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\ProductController.php (49)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:05:41 [trace] [system.db.CDbConnection] Opening DB connection
+in F:\Dropbox\shadow\frontend\protected\modules\core\models\Item.php (37)
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\ProductController.php (49)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:05:41 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `i_item`
+in F:\Dropbox\shadow\frontend\protected\modules\core\models\Item.php (37)
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\ProductController.php (49)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:05:41 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `i_item`
+in F:\Dropbox\shadow\frontend\protected\modules\core\models\Item.php (37)
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\ProductController.php (49)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:05:41 [trace] [system.db.ar.CActiveRecord] Item.findByPk()
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\ProductController.php (49)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:05:41 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `i_item` `t` WHERE `t`.`id` IS NULL LIMIT 1
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\ProductController.php (49)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:05:41 [trace] [system.CModule] Loading "widgetFactory" application component
+in F:\Dropbox\shadow\frontend\protected\views\layouts\column1.php (1)
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\ProductController.php (50)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:05:41 [trace] [system.CModule] Loading "clientScript" application component
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\ProductController.php (50)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:05:46 [trace] [system.CModule] Loading "log" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:05:46 [trace] [system.CModule] Loading "request" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:05:46 [trace] [system.CModule] Loading "urlManager" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:05:46 [trace] [system.base.CModule] Loading "core" module
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:05:46 [trace] [system.CModule] Loading "session" application component
+in F:\Dropbox\shadow\frontend\protected\components\Controller.php (33)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:05:46 [trace] [system.CModule] Loading "user" application component
+in F:\Dropbox\shadow\frontend\protected\components\Controller.php (35)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:05:46 [trace] [system.CModule] Loading "coreMessages" application component
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\ProductController.php (57)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:05:46 [error] [exception.CException] exception 'CException' with message 'ProductController 无法找到请求的视图 "car".' in F:\Dropbox\shadow\frontend\framework\web\CController.php:879
+Stack trace:
+#0 F:\Dropbox\shadow\frontend\framework\web\CController.php(783): CController->renderPartial('car', Array, true)
+#1 F:\Dropbox\shadow\frontend\protected\modules\core\controllers\ProductController.php(57): CController->render('car', Array)
+#2 F:\Dropbox\shadow\frontend\framework\web\actions\CInlineAction.php(50): ProductController->actionCar()
+#3 F:\Dropbox\shadow\frontend\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 F:\Dropbox\shadow\frontend\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 F:\Dropbox\shadow\frontend\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 F:\Dropbox\shadow\frontend\framework\web\CWebApplication.php(276): CController->run('car')
+#7 F:\Dropbox\shadow\frontend\framework\web\CWebApplication.php(135): CWebApplication->runController('core/product/ca...')
+#8 F:\Dropbox\shadow\frontend\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 F:\Dropbox\shadow\frontend\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/frontend/core/product/car
+---
+2012/11/07 16:05:46 [trace] [system.CModule] Loading "errorHandler" application component
+2012/11/07 16:06:35 [trace] [system.CModule] Loading "log" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:06:35 [trace] [system.CModule] Loading "request" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:06:35 [trace] [system.CModule] Loading "urlManager" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:06:35 [trace] [system.base.CModule] Loading "core" module
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:06:35 [trace] [system.CModule] Loading "session" application component
+in F:\Dropbox\shadow\frontend\protected\components\Controller.php (33)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:06:35 [trace] [system.CModule] Loading "user" application component
+in F:\Dropbox\shadow\frontend\protected\components\Controller.php (35)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:06:35 [trace] [system.CModule] Loading "widgetFactory" application component
+in F:\Dropbox\shadow\frontend\protected\views\layouts\column1.php (1)
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\ProductController.php (57)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:06:35 [trace] [system.CModule] Loading "clientScript" application component
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\ProductController.php (57)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:06:35 [trace] [system.CModule] Loading "log" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:06:35 [trace] [system.CModule] Loading "request" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:06:35 [trace] [system.CModule] Loading "urlManager" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:06:35 [trace] [system.base.CModule] Loading "core" module
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:06:35 [trace] [system.CModule] Loading "coreMessages" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:06:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "images" 动作.' in F:\Dropbox\shadow\frontend\framework\web\CController.php:484
+Stack trace:
+#0 F:\Dropbox\shadow\frontend\framework\web\CController.php(271): CController->missingAction('images')
+#1 F:\Dropbox\shadow\frontend\framework\web\CWebApplication.php(276): CController->run('images')
+#2 F:\Dropbox\shadow\frontend\framework\web\CWebApplication.php(135): CWebApplication->runController('core/product/im...')
+#3 F:\Dropbox\shadow\frontend\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 F:\Dropbox\shadow\frontend\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/frontend/core/product/images/icon03.jpg
+HTTP_REFERER=http://127.0.0.1/frontend/core/product/car
+---
+2012/11/07 16:06:35 [trace] [system.CModule] Loading "errorHandler" application component
+2012/11/07 16:06:35 [trace] [system.CModule] Loading "clientScript" application component
+in F:\Dropbox\shadow\frontend\protected\controllers\SiteController.php (47)
+2012/11/07 16:06:35 [trace] [system.CModule] Loading "log" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:06:35 [trace] [system.CModule] Loading "request" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:06:35 [trace] [system.CModule] Loading "urlManager" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:06:35 [trace] [system.base.CModule] Loading "core" module
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:06:35 [trace] [system.CModule] Loading "coreMessages" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:06:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "images" 动作.' in F:\Dropbox\shadow\frontend\framework\web\CController.php:484
+Stack trace:
+#0 F:\Dropbox\shadow\frontend\framework\web\CController.php(271): CController->missingAction('images')
+#1 F:\Dropbox\shadow\frontend\framework\web\CWebApplication.php(276): CController->run('images')
+#2 F:\Dropbox\shadow\frontend\framework\web\CWebApplication.php(135): CWebApplication->runController('core/product/im...')
+#3 F:\Dropbox\shadow\frontend\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 F:\Dropbox\shadow\frontend\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/frontend/core/product/images/iconup.jpg
+HTTP_REFERER=http://127.0.0.1/frontend/core/product/car
+---
+2012/11/07 16:06:35 [trace] [system.CModule] Loading "errorHandler" application component
+2012/11/07 16:06:35 [trace] [system.CModule] Loading "clientScript" application component
+in F:\Dropbox\shadow\frontend\protected\controllers\SiteController.php (47)
+2012/11/07 16:06:35 [trace] [system.CModule] Loading "log" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:06:35 [trace] [system.CModule] Loading "request" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:06:35 [trace] [system.CModule] Loading "urlManager" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:06:35 [trace] [system.base.CModule] Loading "core" module
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:06:35 [trace] [system.CModule] Loading "coreMessages" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:06:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "images" 动作.' in F:\Dropbox\shadow\frontend\framework\web\CController.php:484
+Stack trace:
+#0 F:\Dropbox\shadow\frontend\framework\web\CController.php(271): CController->missingAction('images')
+#1 F:\Dropbox\shadow\frontend\framework\web\CWebApplication.php(276): CController->run('images')
+#2 F:\Dropbox\shadow\frontend\framework\web\CWebApplication.php(135): CWebApplication->runController('core/product/im...')
+#3 F:\Dropbox\shadow\frontend\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 F:\Dropbox\shadow\frontend\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/frontend/core/product/images/01.jpg
+HTTP_REFERER=http://127.0.0.1/frontend/core/product/car
+---
+2012/11/07 16:06:35 [trace] [system.CModule] Loading "errorHandler" application component
+2012/11/07 16:06:35 [trace] [system.CModule] Loading "clientScript" application component
+in F:\Dropbox\shadow\frontend\protected\controllers\SiteController.php (47)
+2012/11/07 16:06:35 [trace] [system.CModule] Loading "log" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:06:35 [trace] [system.CModule] Loading "request" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:06:35 [trace] [system.CModule] Loading "urlManager" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:06:35 [trace] [system.base.CModule] Loading "core" module
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:06:35 [trace] [system.CModule] Loading "coreMessages" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:06:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "images" 动作.' in F:\Dropbox\shadow\frontend\framework\web\CController.php:484
+Stack trace:
+#0 F:\Dropbox\shadow\frontend\framework\web\CController.php(271): CController->missingAction('images')
+#1 F:\Dropbox\shadow\frontend\framework\web\CWebApplication.php(276): CController->run('images')
+#2 F:\Dropbox\shadow\frontend\framework\web\CWebApplication.php(135): CWebApplication->runController('core/product/im...')
+#3 F:\Dropbox\shadow\frontend\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 F:\Dropbox\shadow\frontend\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/frontend/core/product/images/icon02.jpg
+HTTP_REFERER=http://127.0.0.1/frontend/core/product/car
+---
+2012/11/07 16:06:35 [trace] [system.CModule] Loading "errorHandler" application component
+2012/11/07 16:06:35 [trace] [system.CModule] Loading "clientScript" application component
+in F:\Dropbox\shadow\frontend\protected\controllers\SiteController.php (47)
+2012/11/07 16:06:35 [trace] [system.CModule] Loading "log" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:06:35 [trace] [system.CModule] Loading "request" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:06:35 [trace] [system.CModule] Loading "urlManager" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:06:35 [trace] [system.CModule] Loading "coreMessages" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:06:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "source/images/step-bg.png"。' in F:\Dropbox\shadow\frontend\framework\web\CWebApplication.php:280
+Stack trace:
+#0 F:\Dropbox\shadow\frontend\framework\web\CWebApplication.php(135): CWebApplication->runController('source/images/s...')
+#1 F:\Dropbox\shadow\frontend\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 F:\Dropbox\shadow\frontend\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/frontend/source/images/step-bg.png
+HTTP_REFERER=http://127.0.0.1/frontend/core/product/car
+---
+2012/11/07 16:06:35 [trace] [system.CModule] Loading "errorHandler" application component
+2012/11/07 16:06:35 [trace] [system.CModule] Loading "clientScript" application component
+in F:\Dropbox\shadow\frontend\protected\controllers\SiteController.php (47)
+2012/11/07 16:07:27 [trace] [system.CModule] Loading "log" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:07:27 [trace] [system.CModule] Loading "request" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:07:27 [trace] [system.CModule] Loading "urlManager" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:07:27 [trace] [system.base.CModule] Loading "core" module
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:07:27 [trace] [system.CModule] Loading "session" application component
+in F:\Dropbox\shadow\frontend\protected\components\Controller.php (33)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:07:27 [trace] [system.CModule] Loading "user" application component
+in F:\Dropbox\shadow\frontend\protected\components\Controller.php (35)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:07:27 [trace] [system.CModule] Loading "widgetFactory" application component
+in F:\Dropbox\shadow\frontend\protected\views\layouts\column1.php (1)
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\ProductController.php (57)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:07:27 [trace] [system.CModule] Loading "clientScript" application component
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\ProductController.php (57)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:07:27 [trace] [system.CModule] Loading "log" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:07:27 [trace] [system.CModule] Loading "request" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:07:27 [trace] [system.CModule] Loading "urlManager" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:07:27 [trace] [system.base.CModule] Loading "core" module
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:07:27 [trace] [system.CModule] Loading "coreMessages" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:07:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "images" 动作.' in F:\Dropbox\shadow\frontend\framework\web\CController.php:484
+Stack trace:
+#0 F:\Dropbox\shadow\frontend\framework\web\CController.php(271): CController->missingAction('images')
+#1 F:\Dropbox\shadow\frontend\framework\web\CWebApplication.php(276): CController->run('images')
+#2 F:\Dropbox\shadow\frontend\framework\web\CWebApplication.php(135): CWebApplication->runController('core/product/im...')
+#3 F:\Dropbox\shadow\frontend\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 F:\Dropbox\shadow\frontend\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/frontend/core/product/images/icon03.jpg
+HTTP_REFERER=http://127.0.0.1/frontend/core/product/car
+---
+2012/11/07 16:07:27 [trace] [system.CModule] Loading "errorHandler" application component
+2012/11/07 16:07:27 [trace] [system.CModule] Loading "clientScript" application component
+in F:\Dropbox\shadow\frontend\protected\controllers\SiteController.php (47)
+2012/11/07 16:07:27 [trace] [system.CModule] Loading "log" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:07:27 [trace] [system.CModule] Loading "request" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:07:27 [trace] [system.CModule] Loading "urlManager" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:07:27 [trace] [system.base.CModule] Loading "core" module
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:07:27 [trace] [system.CModule] Loading "coreMessages" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:07:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "images" 动作.' in F:\Dropbox\shadow\frontend\framework\web\CController.php:484
+Stack trace:
+#0 F:\Dropbox\shadow\frontend\framework\web\CController.php(271): CController->missingAction('images')
+#1 F:\Dropbox\shadow\frontend\framework\web\CWebApplication.php(276): CController->run('images')
+#2 F:\Dropbox\shadow\frontend\framework\web\CWebApplication.php(135): CWebApplication->runController('core/product/im...')
+#3 F:\Dropbox\shadow\frontend\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 F:\Dropbox\shadow\frontend\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/frontend/core/product/images/icon02.jpg
+HTTP_REFERER=http://127.0.0.1/frontend/core/product/car
+---
+2012/11/07 16:07:27 [trace] [system.CModule] Loading "errorHandler" application component
+2012/11/07 16:07:27 [trace] [system.CModule] Loading "clientScript" application component
+in F:\Dropbox\shadow\frontend\protected\controllers\SiteController.php (47)
+2012/11/07 16:07:27 [trace] [system.CModule] Loading "log" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:07:27 [trace] [system.CModule] Loading "request" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:07:27 [trace] [system.CModule] Loading "urlManager" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:07:27 [trace] [system.base.CModule] Loading "core" module
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:07:27 [trace] [system.CModule] Loading "coreMessages" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:07:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "images" 动作.' in F:\Dropbox\shadow\frontend\framework\web\CController.php:484
+Stack trace:
+#0 F:\Dropbox\shadow\frontend\framework\web\CController.php(271): CController->missingAction('images')
+#1 F:\Dropbox\shadow\frontend\framework\web\CWebApplication.php(276): CController->run('images')
+#2 F:\Dropbox\shadow\frontend\framework\web\CWebApplication.php(135): CWebApplication->runController('core/product/im...')
+#3 F:\Dropbox\shadow\frontend\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 F:\Dropbox\shadow\frontend\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/frontend/core/product/images/iconup.jpg
+HTTP_REFERER=http://127.0.0.1/frontend/core/product/car
+---
+2012/11/07 16:07:27 [trace] [system.CModule] Loading "errorHandler" application component
+2012/11/07 16:07:27 [trace] [system.CModule] Loading "clientScript" application component
+in F:\Dropbox\shadow\frontend\protected\controllers\SiteController.php (47)
+2012/11/07 16:07:27 [trace] [system.CModule] Loading "log" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:07:27 [trace] [system.CModule] Loading "request" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:07:27 [trace] [system.CModule] Loading "urlManager" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:07:27 [trace] [system.base.CModule] Loading "core" module
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:07:27 [trace] [system.CModule] Loading "coreMessages" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:07:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "images" 动作.' in F:\Dropbox\shadow\frontend\framework\web\CController.php:484
+Stack trace:
+#0 F:\Dropbox\shadow\frontend\framework\web\CController.php(271): CController->missingAction('images')
+#1 F:\Dropbox\shadow\frontend\framework\web\CWebApplication.php(276): CController->run('images')
+#2 F:\Dropbox\shadow\frontend\framework\web\CWebApplication.php(135): CWebApplication->runController('core/product/im...')
+#3 F:\Dropbox\shadow\frontend\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 F:\Dropbox\shadow\frontend\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/frontend/core/product/images/01.jpg
+HTTP_REFERER=http://127.0.0.1/frontend/core/product/car
+---
+2012/11/07 16:07:27 [trace] [system.CModule] Loading "errorHandler" application component
+2012/11/07 16:07:27 [trace] [system.CModule] Loading "clientScript" application component
+in F:\Dropbox\shadow\frontend\protected\controllers\SiteController.php (47)
+2012/11/07 16:07:27 [trace] [system.CModule] Loading "log" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:07:27 [trace] [system.CModule] Loading "request" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:07:27 [trace] [system.CModule] Loading "urlManager" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:07:27 [trace] [system.base.CModule] Loading "core" module
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:07:27 [trace] [system.CModule] Loading "session" application component
+in F:\Dropbox\shadow\frontend\protected\components\Controller.php (33)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:07:27 [trace] [system.CModule] Loading "user" application component
+in F:\Dropbox\shadow\frontend\protected\components\Controller.php (35)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:07:27 [trace] [system.CModule] Loading "widgetFactory" application component
+in F:\Dropbox\shadow\frontend\protected\views\layouts\column1.php (1)
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\ProductController.php (57)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:07:27 [trace] [system.CModule] Loading "clientScript" application component
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\ProductController.php (57)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:07:27 [trace] [system.CModule] Loading "log" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:07:27 [trace] [system.CModule] Loading "request" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:07:27 [trace] [system.CModule] Loading "urlManager" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:07:27 [trace] [system.base.CModule] Loading "core" module
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:07:27 [trace] [system.CModule] Loading "coreMessages" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:07:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "images" 动作.' in F:\Dropbox\shadow\frontend\framework\web\CController.php:484
+Stack trace:
+#0 F:\Dropbox\shadow\frontend\framework\web\CController.php(271): CController->missingAction('images')
+#1 F:\Dropbox\shadow\frontend\framework\web\CWebApplication.php(276): CController->run('images')
+#2 F:\Dropbox\shadow\frontend\framework\web\CWebApplication.php(135): CWebApplication->runController('core/product/im...')
+#3 F:\Dropbox\shadow\frontend\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 F:\Dropbox\shadow\frontend\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/frontend/core/product/images/01.jpg
+HTTP_REFERER=http://127.0.0.1/frontend/core/product/car
+---
+2012/11/07 16:07:27 [trace] [system.CModule] Loading "errorHandler" application component
+2012/11/07 16:07:27 [trace] [system.CModule] Loading "clientScript" application component
+in F:\Dropbox\shadow\frontend\protected\controllers\SiteController.php (47)
+2012/11/07 16:07:27 [trace] [system.CModule] Loading "log" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:07:27 [trace] [system.CModule] Loading "request" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:07:27 [trace] [system.CModule] Loading "urlManager" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:07:27 [trace] [system.base.CModule] Loading "core" module
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:07:27 [trace] [system.CModule] Loading "coreMessages" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:07:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "images" 动作.' in F:\Dropbox\shadow\frontend\framework\web\CController.php:484
+Stack trace:
+#0 F:\Dropbox\shadow\frontend\framework\web\CController.php(271): CController->missingAction('images')
+#1 F:\Dropbox\shadow\frontend\framework\web\CWebApplication.php(276): CController->run('images')
+#2 F:\Dropbox\shadow\frontend\framework\web\CWebApplication.php(135): CWebApplication->runController('core/product/im...')
+#3 F:\Dropbox\shadow\frontend\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 F:\Dropbox\shadow\frontend\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/frontend/core/product/images/icon02.jpg
+HTTP_REFERER=http://127.0.0.1/frontend/core/product/car
+---
+2012/11/07 16:07:27 [trace] [system.CModule] Loading "errorHandler" application component
+2012/11/07 16:07:27 [trace] [system.CModule] Loading "clientScript" application component
+in F:\Dropbox\shadow\frontend\protected\controllers\SiteController.php (47)
+2012/11/07 16:07:27 [trace] [system.CModule] Loading "log" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:07:27 [trace] [system.CModule] Loading "request" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:07:27 [trace] [system.CModule] Loading "urlManager" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:07:27 [trace] [system.base.CModule] Loading "core" module
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:07:27 [trace] [system.CModule] Loading "coreMessages" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:07:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "images" 动作.' in F:\Dropbox\shadow\frontend\framework\web\CController.php:484
+Stack trace:
+#0 F:\Dropbox\shadow\frontend\framework\web\CController.php(271): CController->missingAction('images')
+#1 F:\Dropbox\shadow\frontend\framework\web\CWebApplication.php(276): CController->run('images')
+#2 F:\Dropbox\shadow\frontend\framework\web\CWebApplication.php(135): CWebApplication->runController('core/product/im...')
+#3 F:\Dropbox\shadow\frontend\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 F:\Dropbox\shadow\frontend\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/frontend/core/product/images/iconup.jpg
+HTTP_REFERER=http://127.0.0.1/frontend/core/product/car
+---
+2012/11/07 16:07:27 [trace] [system.CModule] Loading "errorHandler" application component
+2012/11/07 16:07:27 [trace] [system.CModule] Loading "clientScript" application component
+in F:\Dropbox\shadow\frontend\protected\controllers\SiteController.php (47)
+2012/11/07 16:07:27 [trace] [system.CModule] Loading "log" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:07:27 [trace] [system.CModule] Loading "request" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:07:27 [trace] [system.CModule] Loading "urlManager" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:07:27 [trace] [system.base.CModule] Loading "core" module
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:07:27 [trace] [system.CModule] Loading "coreMessages" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:07:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "images" 动作.' in F:\Dropbox\shadow\frontend\framework\web\CController.php:484
+Stack trace:
+#0 F:\Dropbox\shadow\frontend\framework\web\CController.php(271): CController->missingAction('images')
+#1 F:\Dropbox\shadow\frontend\framework\web\CWebApplication.php(276): CController->run('images')
+#2 F:\Dropbox\shadow\frontend\framework\web\CWebApplication.php(135): CWebApplication->runController('core/product/im...')
+#3 F:\Dropbox\shadow\frontend\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 F:\Dropbox\shadow\frontend\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/frontend/core/product/images/icon03.jpg
+HTTP_REFERER=http://127.0.0.1/frontend/core/product/car
+---
+2012/11/07 16:07:27 [trace] [system.CModule] Loading "errorHandler" application component
+2012/11/07 16:07:27 [trace] [system.CModule] Loading "clientScript" application component
+in F:\Dropbox\shadow\frontend\protected\controllers\SiteController.php (47)
+2012/11/07 16:07:28 [trace] [system.CModule] Loading "log" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:07:28 [trace] [system.CModule] Loading "request" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:07:28 [trace] [system.CModule] Loading "urlManager" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:07:28 [trace] [system.base.CModule] Loading "core" module
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:07:28 [trace] [system.CModule] Loading "session" application component
+in F:\Dropbox\shadow\frontend\protected\components\Controller.php (33)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:07:28 [trace] [system.CModule] Loading "user" application component
+in F:\Dropbox\shadow\frontend\protected\components\Controller.php (35)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:07:28 [trace] [system.CModule] Loading "widgetFactory" application component
+in F:\Dropbox\shadow\frontend\protected\views\layouts\column1.php (1)
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\ProductController.php (57)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:07:28 [trace] [system.CModule] Loading "clientScript" application component
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\ProductController.php (57)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:07:28 [trace] [system.CModule] Loading "log" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:07:28 [trace] [system.CModule] Loading "request" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:07:28 [trace] [system.CModule] Loading "urlManager" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:07:28 [trace] [system.base.CModule] Loading "core" module
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:07:28 [trace] [system.CModule] Loading "coreMessages" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:07:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "images" 动作.' in F:\Dropbox\shadow\frontend\framework\web\CController.php:484
+Stack trace:
+#0 F:\Dropbox\shadow\frontend\framework\web\CController.php(271): CController->missingAction('images')
+#1 F:\Dropbox\shadow\frontend\framework\web\CWebApplication.php(276): CController->run('images')
+#2 F:\Dropbox\shadow\frontend\framework\web\CWebApplication.php(135): CWebApplication->runController('core/product/im...')
+#3 F:\Dropbox\shadow\frontend\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 F:\Dropbox\shadow\frontend\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/frontend/core/product/images/icon02.jpg
+HTTP_REFERER=http://127.0.0.1/frontend/core/product/car
+---
+2012/11/07 16:07:28 [trace] [system.CModule] Loading "errorHandler" application component
+2012/11/07 16:07:28 [trace] [system.CModule] Loading "clientScript" application component
+in F:\Dropbox\shadow\frontend\protected\controllers\SiteController.php (47)
+2012/11/07 16:07:28 [trace] [system.CModule] Loading "log" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:07:28 [trace] [system.CModule] Loading "request" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:07:28 [trace] [system.CModule] Loading "urlManager" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:07:28 [trace] [system.base.CModule] Loading "core" module
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:07:28 [trace] [system.CModule] Loading "coreMessages" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:07:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "images" 动作.' in F:\Dropbox\shadow\frontend\framework\web\CController.php:484
+Stack trace:
+#0 F:\Dropbox\shadow\frontend\framework\web\CController.php(271): CController->missingAction('images')
+#1 F:\Dropbox\shadow\frontend\framework\web\CWebApplication.php(276): CController->run('images')
+#2 F:\Dropbox\shadow\frontend\framework\web\CWebApplication.php(135): CWebApplication->runController('core/product/im...')
+#3 F:\Dropbox\shadow\frontend\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 F:\Dropbox\shadow\frontend\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/frontend/core/product/images/01.jpg
+HTTP_REFERER=http://127.0.0.1/frontend/core/product/car
+---
+2012/11/07 16:07:28 [trace] [system.CModule] Loading "errorHandler" application component
+2012/11/07 16:07:28 [trace] [system.CModule] Loading "clientScript" application component
+in F:\Dropbox\shadow\frontend\protected\controllers\SiteController.php (47)
+2012/11/07 16:07:28 [trace] [system.CModule] Loading "log" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:07:28 [trace] [system.CModule] Loading "request" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:07:28 [trace] [system.CModule] Loading "urlManager" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:07:28 [trace] [system.base.CModule] Loading "core" module
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:07:28 [trace] [system.CModule] Loading "coreMessages" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:07:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "images" 动作.' in F:\Dropbox\shadow\frontend\framework\web\CController.php:484
+Stack trace:
+#0 F:\Dropbox\shadow\frontend\framework\web\CController.php(271): CController->missingAction('images')
+#1 F:\Dropbox\shadow\frontend\framework\web\CWebApplication.php(276): CController->run('images')
+#2 F:\Dropbox\shadow\frontend\framework\web\CWebApplication.php(135): CWebApplication->runController('core/product/im...')
+#3 F:\Dropbox\shadow\frontend\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 F:\Dropbox\shadow\frontend\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/frontend/core/product/images/icon03.jpg
+HTTP_REFERER=http://127.0.0.1/frontend/core/product/car
+---
+2012/11/07 16:07:28 [trace] [system.CModule] Loading "errorHandler" application component
+2012/11/07 16:07:28 [trace] [system.CModule] Loading "clientScript" application component
+in F:\Dropbox\shadow\frontend\protected\controllers\SiteController.php (47)
+2012/11/07 16:07:28 [trace] [system.CModule] Loading "log" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:07:28 [trace] [system.CModule] Loading "request" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:07:28 [trace] [system.CModule] Loading "urlManager" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:07:28 [trace] [system.base.CModule] Loading "core" module
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:07:28 [trace] [system.CModule] Loading "coreMessages" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:07:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "images" 动作.' in F:\Dropbox\shadow\frontend\framework\web\CController.php:484
+Stack trace:
+#0 F:\Dropbox\shadow\frontend\framework\web\CController.php(271): CController->missingAction('images')
+#1 F:\Dropbox\shadow\frontend\framework\web\CWebApplication.php(276): CController->run('images')
+#2 F:\Dropbox\shadow\frontend\framework\web\CWebApplication.php(135): CWebApplication->runController('core/product/im...')
+#3 F:\Dropbox\shadow\frontend\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 F:\Dropbox\shadow\frontend\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/frontend/core/product/images/iconup.jpg
+HTTP_REFERER=http://127.0.0.1/frontend/core/product/car
+---
+2012/11/07 16:07:28 [trace] [system.CModule] Loading "errorHandler" application component
+2012/11/07 16:07:28 [trace] [system.CModule] Loading "clientScript" application component
+in F:\Dropbox\shadow\frontend\protected\controllers\SiteController.php (47)
+2012/11/07 16:08:05 [trace] [system.CModule] Loading "log" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:08:05 [trace] [system.CModule] Loading "request" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:08:05 [trace] [system.CModule] Loading "urlManager" application component
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:08:05 [trace] [system.base.CModule] Loading "core" module
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:08:05 [trace] [system.CModule] Loading "session" application component
+in F:\Dropbox\shadow\frontend\protected\components\Controller.php (33)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:08:05 [trace] [system.CModule] Loading "user" application component
+in F:\Dropbox\shadow\frontend\protected\components\Controller.php (35)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:08:05 [trace] [system.CModule] Loading "widgetFactory" application component
+in F:\Dropbox\shadow\frontend\protected\views\layouts\column1.php (1)
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\ProductController.php (57)
+in F:\Dropbox\shadow\frontend\index.php (13)
+2012/11/07 16:08:05 [trace] [system.CModule] Loading "clientScript" application component
+in F:\Dropbox\shadow\frontend\protected\modules\core\controllers\ProductController.php (57)
+in F:\Dropbox\shadow\frontend\index.php (13)
